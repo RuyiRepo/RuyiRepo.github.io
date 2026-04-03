@@ -1,0 +1,81 @@
+---
+import { baseUrl } from '@/lib/baseUrl'
+
+interface Props {
+  lang: 'zh' | 'en'
+}
+
+const { lang } = Astro.props
+const base = baseUrl()
+---
+
+<header class="main-header">
+  <div class="main-header-inner">
+    <div class="brand">RuyiRepo</div>
+    <nav class="lang-switch">
+      <a
+        href={base}
+        class:list={['lang-btn', { active: lang === 'zh' }]}
+        aria-current={lang === 'zh' ? 'page' : undefined}
+        onclick="try{localStorage.setItem('ruyi-repo-lang','zh')}catch(e){}"
+      >中文</a>
+      <a
+        href={`${base}en/`}
+        class:list={['lang-btn', { active: lang === 'en' }]}
+        aria-current={lang === 'en' ? 'page' : undefined}
+        onclick="try{localStorage.setItem('ruyi-repo-lang','en')}catch(e){}"
+      >EN</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .main-header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: var(--bg);
+  }
+
+  .main-header-inner {
+    width: 100%;
+    max-width: 72rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .brand {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .lang-switch {
+    display: flex;
+    gap: 24px;
+  }
+
+  .lang-btn {
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    border-radius: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .lang-btn.active {
+    background: #111827;
+    border-color: #111827;
+    color: #fff;
+  }
+</style>

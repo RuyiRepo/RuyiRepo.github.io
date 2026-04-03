@@ -1,0 +1,170 @@
+---
+import type { PypiI18n, PypiJsonData } from '@/types'
+import { baseUrl } from '@/lib/baseUrl'
+import pypiJson from '@/data/pypi.json'
+
+interface Props {
+  i18n: PypiI18n
+}
+
+const { i18n } = Astro.props
+const base = baseUrl()
+const { supportedSoftware } = pypiJson as PypiJsonData
+
+const repoAddressUrl = 'https://ruyirepo.ruyicommunity.cn/pypi'
+const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/simple/ torch'
+---
+
+<div class="tab-block">
+  <h3>{i18n.repoAddressLabel}</h3>
+  <div class="code-row">
+    <code>{repoAddressUrl}</code>
+    <button class="copy-btn" type="button" data-copy-text={repoAddressUrl} aria-label="复制">
+      <img class="copy-icon" src={`${base}icons/copy.svg`} alt="" width="16" height="16" />
+    </button>
+  </div>
+  <h3>{i18n.usageExampleTitle}</h3>
+  <div class="code-row">
+    <code>{usageExampleCode}</code>
+    <button class="copy-btn" type="button" data-copy-text={usageExampleCode} aria-label="复制">
+      <img class="copy-icon" src={`${base}icons/copy.svg`} alt="" width="16" height="16" />
+    </button>
+  </div>
+</div>
+
+<div class="tab-block">
+  <h3>{i18n.supportedTitle}</h3>
+  <div class="software-table-wrap">
+    <table class="software-table">
+      <thead>
+        <tr>
+          <th scope="col">{i18n.columns.package}</th>
+          <th scope="col">{i18n.columns.version}</th>
+          <th scope="col">{i18n.columns.abi}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {supportedSoftware.map(item => (
+          <tr>
+            <td class="cell-name"><code>{item.name}</code></td>
+            <td class="cell-version"><code>{item.version}</code></td>
+            <td class="cell-abi">
+              {item.abi.map(tag => (
+                <span class="abi-tag">{tag}</span>
+              ))}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<style>
+  .tab-block {
+    margin-bottom: 24px;
+  }
+
+  h3 {
+    margin: 18px 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .code-row {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .code-row code {
+    background: #f3f4f6;
+    padding: 10px 12px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 0;
+    word-break: break-all;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 13px;
+    color: var(--text);
+  }
+
+  .copy-btn {
+    border: 1px solid var(--border);
+    background: var(--bg);
+    border-radius: 10px;
+    padding: 8px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .copy-btn:hover {
+    background: #f9fafb;
+  }
+
+  .software-table-wrap {
+    margin-top: 12px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--card);
+  }
+
+  .software-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  .software-table th,
+  .software-table td {
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+
+  .software-table thead th {
+    background: #f3f4f6;
+    font-weight: 700;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .software-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .software-table .cell-name code,
+  .software-table .cell-version code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 13px;
+    color: var(--text);
+    background: transparent;
+    padding: 0;
+  }
+
+  .software-table .cell-version {
+    white-space: nowrap;
+    width: 1%;
+  }
+
+  .cell-abi {
+    line-height: 1.6;
+  }
+
+  .abi-tag {
+    display: inline-block;
+    margin: 2px 6px 2px 0;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background: #eef2ff;
+    color: #3730a3;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 12px;
+  }
+</style>

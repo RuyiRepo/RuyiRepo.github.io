@@ -1,0 +1,34 @@
+{
+  "intro": {
+    "title": "简介",
+    "paragraphs": [
+      "面向 RISC-V 的开源制品仓库，实现 RISC-V 生态软件的可靠供给。",
+      "通过统一的索引与镜像分发能力，帮助开发者稳定获取并持续更新面向 RISC-V 的软件包。"
+    ]
+  },
+  "servicesTitle": "支持的服务",
+  "feedback": {
+    "title": "反馈渠道",
+    "note": "如果您在使用过程中遇到任何问题，或者有任何建议和意见，请通过以下方式联系我们：",
+    "closing": "我们重视每一位用户的反馈，将持续改进服务质量，为开发者提供更好的体验。",
+    "items": [
+      {
+        "label": "提交 Issue",
+        "value": "GitHub Issues",
+        "url": "https://github.com/RuyiRepo/issues"
+      }
+    ]
+  },
+  "services": {
+    "pypi": {
+      "repoAddressLabel": "仓库地址",
+      "usageExampleTitle": "使用示例",
+      "supportedTitle": "已支持的软件",
+      "columns": {
+        "package": "软件包",
+        "version": "版本",
+        "abi": "ABI"
+      }
+    }
+  }
+}
