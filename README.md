@@ -10,12 +10,12 @@
 
 在项目根目录执行：
 
-| 命令 | 说明 |
-| --- | --- |
-| `npm install` | 安装依赖 |
-| `npm run dev` | 本地开发，默认 <http://localhost:4321> |
-| `npm run build` | 构建生产站点到 `dist/` |
-| `npm run preview` | 本地预览构建结果 |
+| 命令              | 说明                                   |
+| ----------------- | -------------------------------------- |
+| `npm install`     | 安装依赖                               |
+| `npm run dev`     | 本地开发，默认 <http://localhost:4321> |
+| `npm run build`   | 构建生产站点到 `dist/`                 |
+| `npm run preview` | 本地预览构建结果                       |
 
 ## 路由与国际化
 
