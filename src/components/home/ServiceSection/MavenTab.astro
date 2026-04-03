@@ -1,0 +1,18 @@
+---
+interface Props {
+  lang: 'zh' | 'en'
+}
+
+const { lang } = Astro.props
+---
+
+<p class="coming-soon">
+  {lang === 'zh' ? 'Maven 支持即将推出' : 'Maven support is coming soon'}
+</p>
+
+<style>
+  .coming-soon {
+    color: var(--muted);
+    margin: 0;
+  }
+</style>

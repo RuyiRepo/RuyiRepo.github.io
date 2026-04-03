@@ -1,0 +1,90 @@
+---
+import Header from './Header.astro'
+import { baseUrl } from '@/lib/baseUrl'
+
+interface Props {
+  lang: 'zh' | 'en'
+  title?: string
+  /** 仅根路径中文首页：按系统语言可能跳转到 /en/；需与 Header 写入的 localStorage 配合 */
+  enableRootLocaleRedirect?: boolean
+}
+
+const { lang, title = 'RuyiRepo Portal', enableRootLocaleRedirect = false } = Astro.props
+const base = baseUrl()
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    {enableRootLocaleRedirect && (
+      <script is:inline define:vars={{ headBase: base }}>
+        (function () {
+          try {
+            var b = headBase
+            var pref = localStorage.getItem('ruyi-repo-lang')
+            if (pref === 'zh') return
+            if (pref === 'en') {
+              window.location.replace(b + 'en/')
+              return
+            }
+            var langs = navigator.languages
+            var primary = (langs && langs[0]) || navigator.language || ''
+            var low = String(primary).toLowerCase()
+            if (low.indexOf('en') === 0) {
+              window.location.replace(b + 'en/')
+            }
+          } catch (e) {}
+        })()
+      </script>
+    )}
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" href={`${base}favicon.ico`} sizes="any" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <Header lang={lang} />
+    <main class="main">
+      <slot />
+    </main>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --bg: #ffffff;
+    --text: #111827;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --card: #fafafa;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family:
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      Segoe UI,
+      Roboto,
+      Helvetica,
+      Arial,
+      'Apple Color Emoji',
+      'Segoe UI Emoji';
+  }
+
+  .main {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 48px 16px 64px;
+  }
+</style>

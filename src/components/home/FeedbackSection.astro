@@ -1,0 +1,67 @@
+---
+import type { Feedback } from '@/types'
+
+interface Props {
+  feedback: Feedback
+  lang: 'zh' | 'en'
+}
+
+const { feedback, lang } = Astro.props
+const sep = lang === 'zh' ? '：' : ': '
+---
+
+<section class="section feedback">
+  <h2>{feedback.title}</h2>
+  <div class="prose">
+    {feedback.note && <p>{feedback.note}</p>}
+    {feedback.items.length > 0 && (
+      <ul>
+        {feedback.items.map(item => (
+          <li>
+            {item.label}{sep}
+            {item.url
+              ? <a href={item.url} target="_blank" rel="noreferrer">{item.value}</a>
+              : <span>{item.value}</span>
+            }
+          </li>
+        ))}
+      </ul>
+    )}
+    {feedback.closing && <p>{feedback.closing}</p>}
+  </div>
+</section>
+
+<style>
+  .section {
+    margin-bottom: 64px;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .prose {
+    margin-top: 12px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  .prose p {
+    margin: 12px 0 0;
+  }
+
+  .prose ul {
+    margin: 12px 0 0;
+    padding-left: 18px;
+  }
+
+  .prose li {
+    margin: 8px 0;
+  }
+
+  .prose a {
+    color: var(--text);
+  }
+</style>

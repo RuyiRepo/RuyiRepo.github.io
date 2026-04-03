@@ -1,0 +1,160 @@
+---
+import type { ServicesI18n } from '@/types'
+import { baseUrl } from '@/lib/baseUrl'
+import PypiTab from './PypiTab.astro'
+import MavenTab from './MavenTab.astro'
+import NpmTab from './NpmTab.astro'
+
+interface Props {
+  title: string
+  lang: 'zh' | 'en'
+  serviceI18n: ServicesI18n
+}
+
+const { title, lang, serviceI18n } = Astro.props
+const assetBase = baseUrl()
+
+const tabs = [
+  { id: 'pypi', label: 'PyPI', disabled: false }
+] as const
+const activeTabId = 'pypi'
+---
+
+<section class="section services">
+  <h2>{title}</h2>
+
+  <div class="tabs-nav" role="tablist">
+    {tabs.map(tab => (
+      <button
+        class:list={['tab-btn', { active: tab.id === activeTabId }]}
+        type="button"
+        role="tab"
+        data-tab-id={tab.id}
+        disabled={tab.disabled}
+        aria-selected={tab.id === activeTabId}
+      >
+        {tab.label}
+      </button>
+    ))}
+  </div>
+
+  <div class="tabs-panels">
+    {tabs.map(tab => (
+      <div
+        class="tab-panel"
+        data-panel-id={tab.id}
+        hidden={tab.id !== activeTabId}
+      >
+        {tab.id === 'pypi' && <PypiTab i18n={serviceI18n.pypi} />}
+        {tab.id === 'maven' && <MavenTab lang={lang} />}
+        {tab.id === 'npm' && <NpmTab lang={lang} />}
+      </div>
+    ))}
+  </div>
+</section>
+
+<script define:vars={{ base: assetBase }}>
+  /** 与 define:vars 同用时脚本会内联进 HTML，不能写 TS 语法，否则浏览器报语法错、整段不执行 */
+  function copyToClipboard(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text)
+    }
+    return new Promise((resolve, reject) => {
+      const ta = document.createElement('textarea')
+      ta.value = text
+      ta.style.position = 'fixed'
+      ta.style.left = '-9999px'
+      document.body.appendChild(ta)
+      ta.select()
+      try {
+        document.execCommand('copy') ? resolve() : reject()
+      } catch (e) {
+        reject(e)
+      } finally {
+        document.body.removeChild(ta)
+      }
+    })
+  }
+
+  const nav = document.querySelector('.tabs-nav')
+  nav?.addEventListener('click', e => {
+    const btn = e.target && e.target.closest && e.target.closest('button.tab-btn[data-tab-id]')
+    if (!btn || btn.disabled) return
+
+    const tabId = btn.dataset.tabId
+
+    nav.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.toggle('active', b === btn)
+      b.setAttribute('aria-selected', String(b === btn))
+    })
+
+    document.querySelectorAll('.tab-panel').forEach(panel => {
+      panel.hidden = panel.dataset.panelId !== tabId
+    })
+  })
+
+  document.addEventListener('click', async e => {
+    const btn = e.target && e.target.closest && e.target.closest('.copy-btn[data-copy-text]')
+    if (!btn) return
+    const text = btn.dataset.copyText || ''
+    if (!text) return
+
+    try {
+      await copyToClipboard(text)
+      const icon = btn.querySelector('img.copy-icon')
+      if (icon) {
+        icon.src = base + 'icons/copied.svg'
+        setTimeout(() => { icon.src = base + 'icons/copy.svg' }, 1200)
+      }
+    } catch {
+      alert('复制失败，请手动复制')
+    }
+  })
+</script>
+
+<style>
+  .section {
+    margin-bottom: 64px;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .tabs-nav {
+    display: flex;
+    gap: 16px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 12px;
+    margin-top: 12px;
+  }
+
+  .tab-btn {
+    appearance: none;
+    border: none;
+    background: transparent;
+    padding: 10px 14px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: -13px;
+  }
+
+  .tab-btn.active {
+    border-bottom-color: var(--text);
+    color: var(--text);
+  }
+
+  .tab-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .tabs-panels {
+    margin-top: 18px;
+  }
+</style>

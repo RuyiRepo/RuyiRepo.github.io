@@ -1,0 +1,34 @@
+{
+  "intro": {
+    "title": "Introduction",
+    "paragraphs": [
+      "An open-source artifact repository for RISC-V, enabling a reliable supply of RISC-V-targeted software packages.",
+      "With centralized indexing and mirror distribution, it helps developers reliably fetch and keep RISC-V software up to date."
+    ]
+  },
+  "servicesTitle": "Supported Services",
+  "feedback": {
+    "title": "Feedback",
+    "note": "If you encounter any issues or have suggestions, please contact us via:",
+    "closing": "We value every piece of feedback and will continuously improve service quality to provide developers with a better experience.",
+    "items": [
+      {
+        "label": "Submit Issue",
+        "value": "GitHub Issues",
+        "url": "https://github.com/RuyiRepo/issues"
+      }
+    ]
+  },
+  "services": {
+    "pypi": {
+      "repoAddressLabel": "Repository Address",
+      "usageExampleTitle": "Usage Example",
+      "supportedTitle": "Supported software",
+      "columns": {
+        "package": "Package",
+        "version": "Version",
+        "abi": "ABI"
+      }
+    }
+  }
+}
