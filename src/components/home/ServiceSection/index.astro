@@ -54,36 +54,57 @@ const activeTabId = 'pypi'
 </section>
 
 <script define:vars={{ base: assetBase }}>
+  /** 与 define:vars 同用时脚本会内联进 HTML，不能写 TS 语法，否则浏览器报语法错、整段不执行 */
+  function copyToClipboard(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text)
+    }
+    return new Promise((resolve, reject) => {
+      const ta = document.createElement('textarea')
+      ta.value = text
+      ta.style.position = 'fixed'
+      ta.style.left = '-9999px'
+      document.body.appendChild(ta)
+      ta.select()
+      try {
+        document.execCommand('copy') ? resolve() : reject()
+      } catch (e) {
+        reject(e)
+      } finally {
+        document.body.removeChild(ta)
+      }
+    })
+  }
+
   const nav = document.querySelector('.tabs-nav')
   nav?.addEventListener('click', e => {
-    const btn = (e.target as Element).closest<HTMLButtonElement>('button.tab-btn[data-tab-id]')
+    const btn = e.target && e.target.closest && e.target.closest('button.tab-btn[data-tab-id]')
     if (!btn || btn.disabled) return
 
-    const tabId = btn.dataset.tabId!
+    const tabId = btn.dataset.tabId
 
     nav.querySelectorAll('.tab-btn').forEach(b => {
       b.classList.toggle('active', b === btn)
       b.setAttribute('aria-selected', String(b === btn))
     })
 
-    document.querySelectorAll<HTMLElement>('.tab-panel').forEach(panel => {
+    document.querySelectorAll('.tab-panel').forEach(panel => {
       panel.hidden = panel.dataset.panelId !== tabId
     })
   })
 
-  // 复制按钮
   document.addEventListener('click', async e => {
-    const btn = (e.target as Element).closest<HTMLButtonElement>('.copy-btn[data-copy-text]')
+    const btn = e.target && e.target.closest && e.target.closest('.copy-btn[data-copy-text]')
     if (!btn) return
-    const text = btn.dataset.copyText ?? ''
+    const text = btn.dataset.copyText || ''
     if (!text) return
 
     try {
-      await navigator.clipboard.writeText(text)
-      const icon = btn.querySelector<HTMLImageElement>('img.copy-icon')
+      await copyToClipboard(text)
+      const icon = btn.querySelector('img.copy-icon')
       if (icon) {
-        icon.src = `${base}icons/copied.svg`
-        setTimeout(() => { icon.src = `${base}icons/copy.svg` }, 1200)
+        icon.src = base + 'icons/copied.svg'
+        setTimeout(() => { icon.src = base + 'icons/copy.svg' }, 1200)
       }
     } catch {
       alert('复制失败，请手动复制')
