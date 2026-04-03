@@ -1,7 +1,5 @@
 {
-  "repoAddressUrl": "https://ruyirepo.ruyicommunity.cn/pypi",
-  "usageExampleCode": "pip install -i https://ruyirepo.ruyicommunity.cn/pypi/simple/ torch",
-  "items": [
+  "supportedSoftware": [
     {
       "name": "cmake",
       "version": "4.2.1",

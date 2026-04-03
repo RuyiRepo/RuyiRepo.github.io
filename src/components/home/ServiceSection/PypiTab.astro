@@ -9,7 +9,10 @@ interface Props {
 
 const { i18n } = Astro.props
 const base = baseUrl()
-const { repoAddressUrl, usageExampleCode, items } = pypiJson as PypiJsonData
+const { supportedSoftware } = pypiJson as PypiJsonData
+
+const repoAddressUrl = 'https://ruyirepo.ruyicommunity.cn/pypi'
+const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/simple/ torch'
 ---
 
 <div class="tab-block">
@@ -41,7 +44,7 @@ const { repoAddressUrl, usageExampleCode, items } = pypiJson as PypiJsonData
         </tr>
       </thead>
       <tbody>
-        {items.map(item => (
+        {supportedSoftware.map(item => (
           <tr>
             <td class="cell-name"><code>{item.name}</code></td>
             <td class="cell-version"><code>{item.version}</code></td>

@@ -46,7 +46,5 @@ export interface SupportedSoftwareItem {
 }
 
 export interface PypiJsonData {
-  repoAddressUrl: string
-  usageExampleCode: string
-  items: SupportedSoftwareItem[]
+  supportedSoftware: SupportedSoftwareItem[]
 }
