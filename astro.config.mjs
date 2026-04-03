@@ -1,18 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config'
 
-// GitHub Actions 会注入 GITHUB_REPOSITORY=owner/repo；本地开发未设置时 base 为 '/'
-const [, repo = ''] = (process.env.GITHUB_REPOSITORY ?? '').split('/')
-const owner = process.env.GITHUB_REPOSITORY?.split('/')[0] ?? ''
-const isUserPagesRoot = repo === `${owner}.github.io`
-const base = repo && !isUserPagesRoot ? `/${repo}/` : '/'
-
-const site =
-  process.env.SITE_URL ??
-  (owner && repo ? `https://${owner}.github.io` : undefined)
-
+// 不在此写死站点 URL。GitHub Actions 里会对 `astro build` 传入 --site / --base；
+// 本地 dev / 本地 build 默认根路径 `/`，与 `src/lib/baseUrl.ts` 一致即可。
 // https://astro.build/config
-export default defineConfig({
-  site,
-  base,
-})
+export default defineConfig({})

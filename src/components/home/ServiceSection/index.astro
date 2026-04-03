@@ -1,5 +1,6 @@
 ---
 import type { ServiceData } from '@/types'
+import { baseUrl } from '@/lib/baseUrl'
 import PypiTab from './PypiTab.astro'
 import MavenTab from './MavenTab.astro'
 import NpmTab from './NpmTab.astro'
@@ -11,6 +12,7 @@ interface Props {
 }
 
 const { title, lang, serviceData } = Astro.props
+const assetBase = baseUrl()
 
 const tabs = [
   { id: 'pypi', label: 'PyPI', disabled: false }
@@ -51,7 +53,7 @@ const activeTabId = 'pypi'
   </div>
 </section>
 
-<script define:vars={{ base: import.meta.env.BASE_URL }}>
+<script define:vars={{ base: assetBase }}>
   const nav = document.querySelector('.tabs-nav')
   nav?.addEventListener('click', e => {
     const btn = (e.target as Element).closest<HTMLButtonElement>('button.tab-btn[data-tab-id]')

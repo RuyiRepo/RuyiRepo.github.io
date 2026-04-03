@@ -1,10 +1,12 @@
 ---
+import { baseUrl } from '@/lib/baseUrl'
+
 interface Props {
   lang: 'zh' | 'en'
 }
 
 const { lang } = Astro.props
-const base = import.meta.env.BASE_URL
+const base = baseUrl()
 ---
 
 <header class="main-header">

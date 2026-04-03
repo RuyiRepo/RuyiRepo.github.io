@@ -50,16 +50,14 @@
 
 ### 子路径（项目站）
 
-对常见地址 `https://<用户名>.github.io/<仓库名>/`，构建时会通过环境变量 `GITHUB_REPOSITORY`（Actions 自动注入）设置 Astro 的 `base` 为 `/<仓库名>/`，静态资源与语言链接会带上正确前缀。
+`astro.config.mjs` **不必**写死域名或 `base`。工作流里 `actions/configure-pages` 会在构建时把 **`--site`**、**`--base`** 传给 `astro build`（与 GitHub Pages 实际地址一致），静态资源与语言链接会通过 `baseUrl()` 带上正确前缀。
 
-若仓库名为 `<用户名>.github.io`（用户/组织主页根域），`base` 会使用 `/`。
+### 本地模拟「带仓库前缀」的构建（可选）
 
-### 本地模拟「带仓库前缀」的构建
-
-与 CI 行为对齐时，可手动传入变量后构建：
+与线上子路径一致时，可本地执行：
 
 ```sh
-GITHUB_REPOSITORY=你的用户名/你的仓库名 SITE_URL=https://你的用户名.github.io npm run build
+npx astro build --site https://你的用户名.github.io --base /你的仓库名/
 ```
 
 构建产物在 `dist/`，可用 `npm run preview` 检查。
