@@ -41,6 +41,7 @@ const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/
           <th scope="col">{i18n.columns.package}</th>
           <th scope="col">{i18n.columns.version}</th>
           <th scope="col">{i18n.columns.abi}</th>
+          <th scope="col">{i18n.columns.platform}</th>
         </tr>
       </thead>
       <tbody>
@@ -53,6 +54,7 @@ const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/
                 <span class="abi-tag">{tag}</span>
               ))}
             </td>
+            <td class="cell-version"><code>{item.platform}</code></td>
           </tr>
         ))}
       </tbody>
