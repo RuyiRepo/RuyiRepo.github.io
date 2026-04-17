@@ -12,7 +12,7 @@ const base = baseUrl()
 const { supportedSoftware } = pypiJson as PypiJsonData
 
 const repoAddressUrl = 'https://ruyirepo.ruyicommunity.cn/pypi'
-const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/simple/ torch'
+const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/simple/ torch==2.10.0'
 ---
 
 <div class="tab-block">
@@ -48,7 +48,11 @@ const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/
         {supportedSoftware.map(item => (
           <tr>
             <td class="cell-name"><code>{item.name}</code></td>
-            <td class="cell-version"><code>{item.version}</code></td>
+            <td class="cell-version">
+              {item.version.map(tag => (
+                <span class="abi-tag">{tag}</span>
+              ))}
+            </td>
             <td class="cell-abi">
               {item.abi.map(tag => (
                 <span class="abi-tag">{tag}</span>
