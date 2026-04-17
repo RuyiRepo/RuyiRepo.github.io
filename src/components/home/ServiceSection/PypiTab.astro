@@ -48,7 +48,7 @@ const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/
         {supportedSoftware.map(item => (
           <tr>
             <td class="cell-name"><code>{item.name}</code></td>
-            <td class="cell-version">
+            <td class="cell-abi">
               {item.version.map(tag => (
                 <span class="abi-tag">{tag}</span>
               ))}
