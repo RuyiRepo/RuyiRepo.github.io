@@ -1,164 +1,24 @@
 {
   "supportedSoftware": [
     {
-      "name": "wrapt",
-      "version": "2.1.1",
-      "abi": [
-        "cp311",
-        "cp314"
+      "name": "pandas",
+      "version": [
+        "1.7.0"
       ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "pynacl",
-      "version": "1.6.2, 1.6.1, 1.6.0, 1.4.0",
       "abi": [
         "cp310",
-        "cp311",
-        "cp312",
         "cp313",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "thriftpy2",
-      "version": "0.5.3",
-      "abi": [
-        "cp311",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "optree",
-      "version": "0.18.0",
-      "abi": [
-        "cp311",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "pillow",
-      "version": "11.0.0",
-      "abi": [
-        "cp311",
-        "cp312",
-        "cp313",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "multidict",
-      "version": "6.7.1",
-      "abi": [
-        "cp310",
-        "cp311",
-        "cp312",
-        "cp313",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "propcache",
-      "version": "0.4.1",
-      "abi": [
-        "cp311",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "cffi",
-      "version": "2.0.0",
-      "abi": [
-        "cp311",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "lintrunner",
-      "version": "0.12.11",
-      "abi": [
-        "none"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "markupsafe",
-      "version": "3.0.3, 3.0.2, 3.0.1, 3.0.0, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0",
-      "abi": [
-        "cp310",
-        "cp311",
-        "cp312",
-        "cp313",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "tlparse",
-      "version": "0.4.0",
-      "abi": [
-        "none"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "yarl",
-      "version": "1.22.0",
-      "abi": [
-        "cp311",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "frozenlist",
-      "version": "1.8.0",
-      "abi": [
-        "cp311",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "pywavelets",
-      "version": "1.7.0",
-      "abi": [
-        "cp311",
         "cp314"
       ],
       "platform": "manylinux_2_38_riscv64"
     },
     {
       "name": "pandas",
-      "version": "0+untagged.20.g2d43452",
-      "abi": [
-        "cp311",
-        "cp314"
+      "version": [
+        "2.7.0"
       ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "onnx",
-      "version": "1.20.0",
       "abi": [
-        "abi3",
         "cp310",
-        "cp311"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "numpy",
-      "version": "2.4.2, 2.4.4, 2.4.3, 2.3.5, 2.3.4, 2.3.3, 2.4.1, 2.4.0rc1, 2.4.0, 2.3.1, 2.3.2",
-      "abi": [
-        "cp311",
         "cp312",
         "cp313",
         "cp314"
@@ -166,64 +26,11 @@
       "platform": "manylinux_2_38_riscv64"
     },
     {
-      "name": "psutil",
-      "version": "7.2.2",
-      "abi": [
-        "abi3"
+      "name": "torch",
+      "version": [
+        "2.10.0",
+        "2.9.0"
       ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "cryptography",
-      "version": "46.0.4, 46.0.3, 46.0.2, 46.0.1",
-      "abi": [
-        "abi3"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "ninja",
-      "version": "0.1.dev20+gb4afc8eee, 1.13.0",
-      "abi": [
-        "none"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "ml_dtypes",
-      "version": "0.5.4",
-      "abi": [
-        "cp310",
-        "cp311",
-        "cp312",
-        "cp313",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "scikit_image",
-      "version": "0.22.0",
-      "abi": [
-        "cp310",
-        "cp311",
-        "cp312",
-        "cp313",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "cmake",
-      "version": "4.2.1",
-      "abi": [
-        "none"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "cython",
-      "version": "3.0.6, 3.1.0",
       "abi": [
         "cp310",
         "cp311",
@@ -235,139 +42,15 @@
     },
     {
       "name": "torch",
-      "version": "2.9.0",
-      "abi": [
-        "cp311",
-        "cp312",
-        "cp313",
-        "cp314"
+      "version": [
+        "2.7.0",
+        "2.8.0"
       ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "torch",
-      "version": "2.10.0",
       "abi": [
         "cp310",
-        "cp311",
         "cp312",
         "cp313",
         "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "torch",
-      "version": "2.8.0, 2.7.0",
-      "abi": [
-        "cp310",
-        "cp311",
-        "cp312",
-        "cp313"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "libcst",
-      "version": "1.8.6, 1.8.5, 1.8.4, 1.8.2, 1.8.1, 1.8.0",
-      "abi": [
-        "cp310",
-        "cp311",
-        "cp312",
-        "cp313",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "sentencepiece",
-      "version": "0.1.97, 0.1.96, 0.1.94, 0.1.95",
-      "abi": [
-        "cp310",
-        "cp311",
-        "cp312",
-        "cp313",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "numpy",
-      "version": "2.0.0rc1, 2.2.5, 2.2.2, 2.2.3, 2.2.1, 2.2.6, 2.2.4",
-      "abi": [
-        "cp310",
-        "cp311",
-        "cp312",
-        "cp313",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "llvmlite",
-      "version": "0+untagged.g2a780ed, 0+untagged.g2675627, 0.0.0, 0.47.0",
-      "abi": [
-        "cp310",
-        "cp311",
-        "cp312",
-        "cp313",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "llvmlite",
-      "version": "0.46.0",
-      "abi": [
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "numba",
-      "version": "0.64.0+3.g52f1433, 0+untagged.151.g2403925, 0+untagged.136.g360a5cf, 0.64.0, 0+untagged.93.g77e1af6",
-      "abi": [
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "onnx",
-      "version": "1.20.1",
-      "abi": [
-        "abi3",
-        "cp311"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "pynacl",
-      "version": "1.5.0",
-      "abi": [
-        "cp311",
-        "cp312",
-        "cp313",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "pandas",
-      "version": "0+untagged.20.g6aaab49, 0+untagged.20.g1461fba, 0+untagged.20.g8a99331, 0+untagged.20.g363375b, 0+untagged.20.g7bd0a5f, 3.0.0rc2, 3.0.0, 3.0.2, 3.0.0rc1, 3.0.1, 2.2.3+1.geed2146",
-      "abi": [
-        "cp311",
-        "cp312",
-        "cp313",
-        "cp314"
-      ],
-      "platform": "manylinux_2_38_riscv64"
-    },
-    {
-      "name": "pandas",
-      "version": "2.2.2+1.g349e364",
-      "abi": [
-        "cp311",
-        "cp312"
       ],
       "platform": "manylinux_2_38_riscv64"
     }
