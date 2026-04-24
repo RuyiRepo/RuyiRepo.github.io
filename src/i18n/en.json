@@ -3,7 +3,8 @@
     "title": "Introduction",
     "paragraphs": [
       "An open-source artifact repository for RISC-V, enabling a reliable supply of RISC-V-targeted software packages.",
-      "With centralized indexing and mirror distribution, it helps developers reliably fetch and keep RISC-V software up to date."
+      "With centralized indexing and mirror distribution, it helps developers reliably fetch and keep RISC-V software up to date.",
+      "RuyiRepo utilizes the self-developed engine ForgeStash to host open-source artifacts. Tailored for a specific ecosystem, RuyiRepo provides services in the form of repository groups. Each group includes a repository hosting RISC-V 64-bit architecture artifacts and at least one proxy repository linked to other open-source artifact repositories (primarily used to fetch architecture-independent open-source artifacts). This design aims to simplify user operations by eliminating the need to configure multiple repositories."
     ]
   },
   "servicesTitle": "Supported Services",
@@ -27,7 +28,8 @@
       "columns": {
         "package": "Package",
         "version": "Version",
-        "abi": "ABI"
+        "abi": "ABI",
+        "platform": "Platform"
       }
     }
   }
