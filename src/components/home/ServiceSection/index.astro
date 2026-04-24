@@ -45,7 +45,7 @@ const activeTabId = 'pypi'
         data-panel-id={tab.id}
         hidden={tab.id !== activeTabId}
       >
-        {tab.id === 'pypi' && <PypiTab i18n={serviceI18n.pypi} />}
+        {tab.id === 'pypi' && <PypiTab i18n={serviceI18n.pypi} lang={lang} />}
         {tab.id === 'maven' && <MavenTab lang={lang} />}
         {tab.id === 'npm' && <NpmTab lang={lang} />}
       </div>

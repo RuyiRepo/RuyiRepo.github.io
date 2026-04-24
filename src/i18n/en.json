@@ -25,6 +25,8 @@
       "repoAddressLabel": "Repository Address",
       "usageExampleTitle": "Usage Example",
       "supportedTitle": "Supported software",
+      "updatedAtLabel": "Updated at",
+      "emptyState": "No data available.",
       "columns": {
         "package": "Package",
         "version": "Version",

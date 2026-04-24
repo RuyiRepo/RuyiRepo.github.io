@@ -25,6 +25,8 @@
       "repoAddressLabel": "仓库地址",
       "usageExampleTitle": "使用示例",
       "supportedTitle": "已支持的软件",
+      "updatedAtLabel": "更新于",
+      "emptyState": "暂无符合条件的数据。",
       "columns": {
         "package": "软件包",
         "version": "版本",

@@ -1,18 +1,67 @@
 ---
-import type { PypiI18n, PypiJsonData } from '@/types'
+import type { PypiI18n, PypiJsonData, SupportedSoftwareByArch, SupportedSoftwareItem } from '@/types'
 import { baseUrl } from '@/lib/baseUrl'
 import pypiJson from '@/data/pypi.json'
 
 interface Props {
   i18n: PypiI18n
+  lang: 'zh' | 'en'
 }
 
-const { i18n } = Astro.props
+const { i18n, lang } = Astro.props
 const base = baseUrl()
-const { supportedSoftware } = pypiJson as PypiJsonData
-
+const payload = pypiJson as PypiJsonData
 const repoAddressUrl = 'https://ruyirepo.ruyicommunity.cn/pypi'
 const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/simple/ torch==2.10.0'
+
+const normalizeSupportedSoftware = (value: PypiJsonData['supportedSoftware']): SupportedSoftwareByArch => {
+  const normalized: SupportedSoftwareByArch = {}
+  for (const [arch, list] of Object.entries(value)) {
+    if (!Array.isArray(list)) continue
+    normalized[arch] = list.filter(
+      (item): item is SupportedSoftwareItem =>
+        Boolean(item?.name) &&
+        Array.isArray(item?.version) &&
+        Array.isArray(item?.abi) &&
+        typeof item?.platform === 'string'
+    )
+  }
+  return normalized
+}
+
+const supportedSoftwareByArch = normalizeSupportedSoftware(payload.supportedSoftware)
+const architectures = Object.keys(supportedSoftwareByArch)
+
+const activeArchitecture = architectures.includes('riscv64') ? 'riscv64' : (architectures[0] ?? '')
+
+const parseUpdatedAt = (value?: string): Date | null => {
+  if (!value) return null
+
+  const trimmed = value.trim()
+  if (!trimmed) return null
+
+  if (/^\d+$/.test(trimmed)) {
+    const numericValue = Number(trimmed)
+    if (!Number.isFinite(numericValue)) return null
+    const ms = trimmed.length <= 10 ? numericValue * 1000 : numericValue
+    const dateFromTs = new Date(ms)
+    return Number.isNaN(dateFromTs.getTime()) ? null : dateFromTs
+  }
+
+  const dateFromText = new Date(trimmed)
+  return Number.isNaN(dateFromText.getTime()) ? null : dateFromText
+}
+
+const formatUpdatedAt = (value?: string): string => {
+  const date = parseUpdatedAt(value)
+  if (!date) return '-'
+  return new Intl.DateTimeFormat(lang === 'zh' ? 'zh-CN' : 'en-US', {
+    dateStyle: 'medium',
+    timeStyle: 'medium'
+  }).format(date)
+}
+
+const updatedAt = formatUpdatedAt(payload.updated_at)
 ---
 
 <div class="tab-block">
@@ -33,38 +82,104 @@ const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/
 </div>
 
 <div class="tab-block">
-  <h3>{i18n.supportedTitle}</h3>
-  <div class="software-table-wrap">
-    <table class="software-table">
-      <thead>
-        <tr>
-          <th scope="col">{i18n.columns.package}</th>
-          <th scope="col">{i18n.columns.version}</th>
-          <th scope="col">{i18n.columns.abi}</th>
-          <th scope="col">{i18n.columns.platform}</th>
-        </tr>
-      </thead>
-      <tbody>
-        {supportedSoftware.map(item => (
-          <tr>
-            <td class="cell-name"><code>{item.name}</code></td>
-            <td class="cell-abi">
-              {item.version.map(tag => (
-                <span class="abi-tag">{tag}</span>
-              ))}
-            </td>
-            <td class="cell-abi">
-              {item.abi.map(tag => (
-                <span class="abi-tag">{tag}</span>
-              ))}
-            </td>
-            <td class="cell-version"><code>{item.platform}</code></td>
-          </tr>
+  <div class="supported-head">
+    <div>
+      <h3 class="supported-title">{i18n.supportedTitle}</h3>
+      <p class="updated-at"><strong>{i18n.updatedAtLabel}:</strong> {updatedAt}</p>
+    </div>
+    {architectures.length > 0 && (
+      <div class="arch-tabs" role="tablist" aria-label="Architecture tabs">
+        {architectures.map(arch => (
+          <button
+            type="button"
+            class:list={['arch-tab-btn', { active: arch === activeArchitecture }]}
+            data-arch-id={arch}
+            aria-selected={arch === activeArchitecture}
+          >
+            {arch}
+          </button>
         ))}
-      </tbody>
-    </table>
+      </div>
+    )}
+  </div>
+
+  <div class="software-layout">
+    <div class="software-card">
+      {architectures.length > 0 ? (
+        <>
+          <div class="arch-panels">
+          {architectures.map(arch => {
+            const data = supportedSoftwareByArch[arch] ?? []
+            return (
+              <div class="arch-panel" data-arch-panel-id={arch} hidden={arch !== activeArchitecture}>
+                {data.length > 0 ? (
+                  <table class="software-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">{i18n.columns.package}</th>
+                        <th scope="col">{i18n.columns.version}</th>
+                        <th scope="col">{i18n.columns.abi}</th>
+                        <th scope="col">{i18n.columns.platform}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {data.map(item => (
+                        <tr>
+                          <td class="cell-name"><code>{item.name}</code></td>
+                          <td class="cell-abi">
+                            {item.version.map(tag => (
+                              <span class="abi-tag">{tag}</span>
+                            ))}
+                          </td>
+                          <td class="cell-abi">
+                            {item.abi.map(tag => (
+                              <span class="abi-tag">{tag}</span>
+                            ))}
+                          </td>
+                          <td class="cell-version"><code>{item.platform}</code></td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                ) : (
+                  <p class="empty-state">{i18n.emptyState}</p>
+                )}
+              </div>
+            )
+          })}
+          </div>
+        </>
+      ) : (
+        <p class="empty-state">{i18n.emptyState}</p>
+      )}
+    </div>
   </div>
 </div>
+
+<script>
+  const archTabs = document.querySelector('.arch-tabs')
+
+  function setActiveArchitecture(activeArchId) {
+    document.querySelectorAll('.arch-panel').forEach(panel => {
+      panel.hidden = panel.dataset.archPanelId !== activeArchId
+    })
+
+    document.querySelectorAll('.arch-tab-btn').forEach(btn => {
+      const isActive = btn.dataset.archId === activeArchId
+      btn.classList.toggle('active', isActive)
+      btn.setAttribute('aria-selected', String(isActive))
+    })
+  }
+
+  archTabs?.addEventListener('click', event => {
+    const target = event.target
+    const button = target && target.closest ? target.closest('.arch-tab-btn[data-arch-id]') : null
+    if (!button) return
+    const archId = button.dataset.archId || ''
+    if (!archId) return
+    setActiveArchitecture(archId)
+  })
+</script>
 
 <style>
   .tab-block {
@@ -76,6 +191,24 @@ const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/
     font-size: 16px;
     font-weight: 700;
     color: var(--text);
+  }
+
+  .supported-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+
+  .supported-title {
+    margin: 0 0 4px;
+  }
+
+  .updated-at {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
   }
 
   .code-row {
@@ -112,33 +245,68 @@ const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/
     background: #f9fafb;
   }
 
-  .software-table-wrap {
-    margin-top: 12px;
-    border: 1px solid var(--border);
-    border-radius: 12px;
+  .software-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .software-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background: #fff;
     overflow: hidden;
-    background: var(--card);
+  }
+
+  .arch-tabs {
+    display: flex;
+    align-items: center;
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .arch-tab-btn {
+    border: none;
+    border-right: 1px solid #e5e7eb;
+    background: transparent;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 20px;
+    cursor: pointer;
+    line-height: 1.2;
+  }
+
+  .arch-tab-btn:last-child {
+    border-right: none;
+  }
+
+  .arch-tab-btn.active {
+    background: #2563eb;
+    color: #fff;
   }
 
   .software-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .software-table th,
   .software-table td {
-    padding: 10px 14px;
+    padding: 9px 12px;
     text-align: left;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 1px solid #e5e7eb;
     vertical-align: top;
   }
 
   .software-table thead th {
     background: #f3f4f6;
     font-weight: 700;
-    color: var(--text);
-    border-bottom: 1px solid var(--border);
+    color: #111827;
+    border-bottom: 1px solid #e5e7eb;
   }
 
   .software-table tbody tr:last-child td {
@@ -147,9 +315,9 @@ const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/
 
   .software-table .cell-name code,
   .software-table .cell-version code {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-family: inherit;
     font-size: 13px;
-    color: var(--text);
+    color: #111827;
     background: transparent;
     padding: 0;
   }
@@ -165,12 +333,39 @@ const usageExampleCode = 'pip install -i https://ruyirepo.ruyicommunity.cn/pypi/
 
   .abi-tag {
     display: inline-block;
-    margin: 2px 6px 2px 0;
-    padding: 2px 8px;
-    border-radius: 6px;
+    margin: 1px 4px 1px 0;
+    padding: 1px 6px;
+    border-radius: 4px;
     background: #eef2ff;
-    color: #3730a3;
+    color: #4f46e5;
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Courier New', monospace;
-    font-size: 12px;
+    font-size: 11px;
+    line-height: 1.5;
+  }
+
+  .empty-state {
+    margin: 12px;
+    padding: 16px;
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  @media (max-width: 920px) {
+    .supported-head {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .arch-tabs {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    .arch-tab-btn {
+      flex: 1 0 auto;
+      min-width: 96px;
+    }
   }
 </style>

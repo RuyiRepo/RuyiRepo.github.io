@@ -15,10 +15,13 @@ export interface PypiI18n {
   repoAddressLabel: string
   usageExampleTitle: string
   supportedTitle: string
+  updatedAtLabel: string
+  emptyState: string
   columns: {
     package: string
     version: string
     abi: string
+    platform: string
   }
 }
 
@@ -40,11 +43,14 @@ export interface I18nData {
 
 export interface SupportedSoftwareItem {
   name: string
-  version: string
-  /** Python wheel ABI 标签，如 cp310、cp311 */
+  version: string[]
   abi: string[]
+  platform: string
 }
 
+export type SupportedSoftwareByArch = Record<string, SupportedSoftwareItem[]>
+
 export interface PypiJsonData {
-  supportedSoftware: SupportedSoftwareItem[]
+  updated_at?: string
+  supportedSoftware: SupportedSoftwareByArch
 }
