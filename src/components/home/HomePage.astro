@@ -15,10 +15,15 @@ const { lang, enableRootLocaleRedirect = false } = Astro.props
 const i18n = lang === 'en' ? en : zh
 ---
 
-<Layout lang={lang} enableRootLocaleRedirect={enableRootLocaleRedirect}>
+<Layout
+  lang={lang}
+  title={i18n.seo.title}
+  enableRootLocaleRedirect={enableRootLocaleRedirect}
+  description={i18n.seo.description}
+>
   <IntroSection title={i18n.intro.title} paragraphs={i18n.intro.paragraphs} />
   <ServiceSection
-    title={i18n.servicesTitle}
+    title={i18n.services.title}
     lang={lang}
     serviceI18n={i18n.services}
   />

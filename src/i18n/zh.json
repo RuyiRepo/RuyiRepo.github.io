@@ -1,13 +1,13 @@
 {
+  "seo": {
+    "title": "RuyiRepo",
+    "description": "为 RISC-V 开发者提供 PyPI 镜像及 riscv64 制品托管，支持 torch、numpy 等常用包，使用 pip install -i 快速安装，无需配置多个仓库。"
+  },
   "intro": {
     "title": "简介",
-    "paragraphs": [
-      "面向 RISC-V 的开源制品仓库，实现 RISC-V 生态软件的可靠供给。",
-      "通过统一的索引与镜像分发能力，帮助开发者稳定获取并持续更新面向 RISC-V 的软件包。",
-      "RuyiRepo 基于自研引擎 ForgeStash 实现开源制品托管，面向某一指定的生态，RuyiRepo 会组仓库的形式提供服务，组内包含了托管 riscv64 架构制品的仓库，以及至少一个代理到其他开源制品仓库的代理仓库(主要用于获取无架构依赖的开源制品)，旨在简化用户操作，无需配置多个仓库。"
-    ]
+    "paragraphs": ["面向 RISC-V 的开源制品仓库，实现 RISC-V 生态软件的可靠供给。", "通过统一的索引与镜像分发能力，帮助开发者稳定获取并持续更新面向 RISC-V 的软件包。", "RuyiRepo 基于自研引擎 ForgeStash 实现开源制品托管，面向某一指定的生态，RuyiRepo 会组仓库的形式提供服务，组内包含了托管 riscv64 架构制品的仓库，以及至少一个代理到其他开源制品仓库的代理仓库(主要用于获取无架构依赖的开源制品)，旨在简化用户操作，无需配置多个仓库。"]
   },
-  "servicesTitle": "支持的服务",
+
   "feedback": {
     "title": "反馈渠道",
     "note": "如果您在使用过程中遇到任何问题，或者有任何建议和意见，请通过以下方式联系我们：",
@@ -21,6 +21,7 @@
     ]
   },
   "services": {
+    "title": "支持的服务",
     "pypi": {
       "repoAddressLabel": "仓库地址",
       "usageExampleTitle": "使用示例",

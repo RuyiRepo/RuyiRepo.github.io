@@ -1,13 +1,13 @@
 {
+  "seo": {
+    "title": "RuyiRepo",
+    "description": "PyPI mirror and riscv64 artifact hosting for RISC-V developers. Install torch, numpy and more with a single pip -i command—no multi-repo setup needed."
+  },
   "intro": {
     "title": "Introduction",
-    "paragraphs": [
-      "An open-source artifact repository for RISC-V, enabling a reliable supply of RISC-V-targeted software packages.",
-      "With centralized indexing and mirror distribution, it helps developers reliably fetch and keep RISC-V software up to date.",
-      "RuyiRepo utilizes the self-developed engine ForgeStash to host open-source artifacts. Tailored for a specific ecosystem, RuyiRepo provides services in the form of repository groups. Each group includes a repository hosting RISC-V 64-bit architecture artifacts and at least one proxy repository linked to other open-source artifact repositories (primarily used to fetch architecture-independent open-source artifacts). This design aims to simplify user operations by eliminating the need to configure multiple repositories."
-    ]
+    "paragraphs": ["An open-source artifact repository for RISC-V, enabling a reliable supply of RISC-V-targeted software packages.", "With centralized indexing and mirror distribution, it helps developers reliably fetch and keep RISC-V software up to date.", "RuyiRepo utilizes the self-developed engine ForgeStash to host open-source artifacts. Tailored for a specific ecosystem, RuyiRepo provides services in the form of repository groups. Each group includes a repository hosting RISC-V 64-bit architecture artifacts and at least one proxy repository linked to other open-source artifact repositories (primarily used to fetch architecture-independent open-source artifacts). This design aims to simplify user operations by eliminating the need to configure multiple repositories."]
   },
-  "servicesTitle": "Supported Services",
+
   "feedback": {
     "title": "Feedback",
     "note": "If you encounter any issues or have suggestions, please contact us via:",
@@ -21,6 +21,7 @@
     ]
   },
   "services": {
+    "title": "Supported Services",
     "pypi": {
       "repoAddressLabel": "Repository Address",
       "usageExampleTitle": "Usage Example",
