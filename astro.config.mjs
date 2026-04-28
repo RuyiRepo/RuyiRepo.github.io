@@ -1,7 +1,10 @@
 // @ts-check
 import { defineConfig } from 'astro/config'
+import sitemap from '@astrojs/sitemap'
 
-// 不在此写死站点 URL。GitHub Actions 里会对 `astro build` 传入 --site / --base；
-// 本地 dev / 本地 build 默认根路径 `/`，与 `src/lib/baseUrl.ts` 一致即可。
+// 生产规范域名为 ruyirepo.cn。CI 中 `astro build` 只传 --base，--site 以本配置为准（与 sitemap、canonical 一致）。
 // https://astro.build/config
-export default defineConfig({})
+export default defineConfig({
+  site: 'https://ruyirepo.cn',
+  integrations: [sitemap()],
+})

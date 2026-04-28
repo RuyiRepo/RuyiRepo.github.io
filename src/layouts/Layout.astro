@@ -7,10 +7,23 @@ interface Props {
   title?: string
   /** 仅根路径中文首页：按系统语言可能跳转到 /en/；需与 Header 写入的 localStorage 配合 */
   enableRootLocaleRedirect?: boolean
+  /** meta description / og:description */
+  description?: string
 }
 
-const { lang, title = 'RuyiRepo Portal', enableRootLocaleRedirect = false } = Astro.props
+const {
+  lang,
+  title = 'RuyiRepo Portal',
+  enableRootLocaleRedirect = false,
+  description,
+} = Astro.props
 const base = baseUrl()
+const site = import.meta.env.SITE
+const canonicalHref = site ? new URL(Astro.url.pathname, site).href : undefined
+
+// hreflang：中文页固定在 /，英文页固定在 /en/
+const hreflangZh = site ? `${site}/` : undefined
+const hreflangEn = site ? `${site}/en/` : undefined
 ---
 
 <!doctype html>
@@ -42,6 +55,19 @@ const base = baseUrl()
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" href={`${base}favicon.ico`} sizes="any" />
     <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    {canonicalHref && <link rel="canonical" href={canonicalHref} />}
+    {hreflangZh && <link rel="alternate" hreflang="zh" href={hreflangZh} />}
+    {hreflangEn && <link rel="alternate" hreflang="en" href={hreflangEn} />}
+    {hreflangZh && <link rel="alternate" hreflang="x-default" href={hreflangZh} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    {canonicalHref && <meta property="og:url" content={canonicalHref} />}
+    <meta property="og:locale" content={lang === 'zh' ? 'zh_CN' : 'en_US'} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    {description && <meta name="twitter:description" content={description} />}
   </head>
   <body>
     <Header lang={lang} />

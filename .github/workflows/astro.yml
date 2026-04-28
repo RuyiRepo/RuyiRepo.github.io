@@ -94,7 +94,6 @@ jobs:
           RAW="${{ steps.pages.outputs.base_path }}"
           if [ -z "$RAW" ]; then NORM="/"; else NORM="${RAW%/}/"; fi
           ${{ steps.detect-package-manager.outputs.runner }} astro build \
-            --site "${{ steps.pages.outputs.origin }}" \
             --base "$NORM"
         working-directory: ${{ env.BUILD_PATH }}
       - name: Upload artifact
