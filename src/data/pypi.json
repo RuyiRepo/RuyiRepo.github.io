@@ -1,5 +1,5 @@
 {
-  "updated_at": "1778293815",
+  "updated_at": "1778380219",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -538,6 +538,19 @@
         "version": [
           "4.7.1",
           "4.7.0"
+        ],
+        "abi": [
+          "cp310"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "multiprocess",
+        "version": [
+          "0.70.7",
+          "0.70.4",
+          "0.70.8",
+          "0.70.5"
         ],
         "abi": [
           "cp310"
