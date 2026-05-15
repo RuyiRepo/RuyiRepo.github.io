@@ -1,5 +1,5 @@
 {
-  "updated_at": "1778725820",
+  "updated_at": "1778812219",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -1124,6 +1124,65 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "tornado",
+        "version": [
+          "6.5.3",
+          "6.5.4",
+          "6.4.2",
+          "6.3.3",
+          "6.3.2",
+          "6.3",
+          "6.5b1",
+          "6.4.1",
+          "6.4",
+          "6.3.1"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "tornado",
+        "version": [
+          "6.0.3",
+          "6.0.2",
+          "6.1.dev1",
+          "6.0a1",
+          "4.5.1",
+          "4.4.3",
+          "4.4.2",
+          "4.2b1",
+          "4.4b1",
+          "4.3b1",
+          "4.5b2",
+          "3.2.2"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "tornado",
+        "version": [
+          "5.0.2",
+          "5.0.1",
+          "5.0a1",
+          "5.1b1",
+          "5.1.dev1"
+        ],
+        "abi": [
+          "cp310",
+          "cp311"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "websockets",
         "version": [
           "15.0.1",
@@ -1263,6 +1322,32 @@
         "abi": [
           "cp311",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "zstandard",
+        "version": [
+          "0.15.1",
+          "0.24.0"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "zstandard",
+        "version": [
+          "0.11.0",
+          "0.14.0"
+        ],
+        "abi": [
+          "cp310"
         ],
         "platform": "manylinux_2_38_riscv64"
       }
