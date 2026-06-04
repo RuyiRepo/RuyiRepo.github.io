@@ -1,5 +1,5 @@
 {
-  "updated_at": "1780453830",
+  "updated_at": "1780540229",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -1215,6 +1215,20 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "opencv_python",
+        "version": [
+          "4.13.0+bfc4016",
+          "4.13.0.92"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "optree",
         "version": [
           "0.18.0"
@@ -1636,6 +1650,25 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyrsistent",
+        "version": [
+          "0.15.6",
+          "0.15.5",
+          "0.14.11",
+          "0.14.9",
+          "0.14.4",
+          "0.14.2",
+          "0.13.0",
+          "0.12.2",
+          "0.11.13",
+          "0.11.2"
+        ],
+        "abi": [
+          "cp311"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
