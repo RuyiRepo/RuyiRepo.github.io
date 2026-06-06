@@ -1,5 +1,5 @@
 {
-  "updated_at": "1780626630",
+  "updated_at": "1780713030",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -1664,6 +1664,45 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyrsistent",
+        "version": [
+          "0.11.4",
+          "0.19.2",
+          "0.11.9",
+          "0.14.1",
+          "0.14.0",
+          "0.11.5",
+          "0.14.10",
+          "0.16.1",
+          "0.14.3",
+          "0.15.1",
+          "0.15.2",
+          "0.11.10",
+          "0.11.6",
+          "0.17.2",
+          "0.19.3"
+        ],
+        "abi": [
+          "cp310",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyrsistent",
+        "version": [
+          "0.20.0"
+        ],
+        "abi": [
+          "cp310",
+          "cp312",
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
