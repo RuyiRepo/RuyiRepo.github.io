@@ -1,5 +1,5 @@
 {
-  "updated_at": "1780713030",
+  "updated_at": "1780799430",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -1684,25 +1684,14 @@
           "0.11.10",
           "0.11.6",
           "0.17.2",
-          "0.19.3"
+          "0.19.3",
+          "0.20.0"
         ],
         "abi": [
           "cp310",
           "cp312",
           "cp313",
           "cp314"
-        ],
-        "platform": "manylinux_2_38_riscv64"
-      },
-      {
-        "name": "pyrsistent",
-        "version": [
-          "0.20.0"
-        ],
-        "abi": [
-          "cp310",
-          "cp312",
-          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -1992,6 +1981,31 @@
           "cp311",
           "cp312",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "torch",
+        "version": [
+          "2.11.0"
+        ],
+        "abi": [
+          "cp310",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "torch",
+        "version": [
+          "2.12.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
