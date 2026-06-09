@@ -1,5 +1,5 @@
 {
-  "updated_at": "1780885830",
+  "updated_at": "1780972231",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -888,6 +888,20 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ml_dtypes",
+        "version": [
+          "0.5.3",
+          "0.5.0",
+          "0.3.1",
+          "0.3.0",
+          "0.0.2rc4"
+        ],
+        "abi": [
+          "cp312"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
