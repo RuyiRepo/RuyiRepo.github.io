@@ -1,5 +1,5 @@
 {
-  "updated_at": "1781058632",
+  "updated_at": "1781145033",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -585,6 +585,16 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "hf_xet",
+        "version": [
+          "1.5.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "httptools",
         "version": [
           "0.6.3",
@@ -1161,6 +1171,22 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "nh3",
+        "version": [
+          "0.2.13",
+          "0.3.3",
+          "0.2.21",
+          "0.3.4",
+          "0.2.14",
+          "0.2.1",
+          "0.2.10"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "ninja",
         "version": [
           "0.1.dev20+gb4afc8eee",
@@ -1273,6 +1299,63 @@
         "abi": [
           "cp311",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "orjson",
+        "version": [
+          "3.8.8",
+          "3.9.4",
+          "3.8.10",
+          "3.9.6",
+          "3.8.9",
+          "3.8.4",
+          "3.7.12",
+          "3.8.6",
+          "3.9.8",
+          "3.11.2",
+          "3.9.11",
+          "3.9.12",
+          "3.8.12",
+          "3.9.3",
+          "3.8.11",
+          "3.8.5",
+          "3.8.1",
+          "3.9.2"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "orjson",
+        "version": [
+          "3.10.0",
+          "3.10.3"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "orjson",
+        "version": [
+          "3.10.7"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -1883,12 +1966,75 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "snowflake_connector_python",
+        "version": [
+          "3.1.0a2",
+          "4.0.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "snowflake_connector_python",
+        "version": [
+          "4.1.1",
+          "3.13.0",
+          "3.16.0",
+          "3.18.0"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "snowflake_connector_python",
+        "version": [
+          "3.11.0",
+          "3.10.0",
+          "3.9.0",
+          "3.8.1"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "snowflake_connector_python",
+        "version": [
+          "4.2.0"
+        ],
+        "abi": [
+          "cp310",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "spacy",
         "version": [
           "3.8.8",
-          "3.8.9"
+          "3.8.9",
+          "3.8.11",
+          "3.8.12",
+          "3.8.13"
         ],
         "abi": [
+          "cp311",
           "cp312",
           "cp313"
         ],
@@ -1900,9 +2046,6 @@
           "3.7.5",
           "4.0.0.dev3",
           "3.7.7",
-          "3.8.11",
-          "3.8.12",
-          "3.8.13",
           "3.7.6",
           "3.7.1"
         ],
@@ -1934,7 +2077,23 @@
           "3.1.5",
           "3.0.7",
           "3.0.8",
-          "3.1.1"
+          "3.1.1",
+          "3.5.3",
+          "4.0.0.dev2",
+          "3.7.3",
+          "4.0.0.dev1",
+          "3.8.6",
+          "3.8.4",
+          "3.8.7",
+          "3.3.1",
+          "3.2.6",
+          "3.2.5",
+          "3.3.0",
+          "3.2.3",
+          "3.1.3",
+          "3.3.3",
+          "3.1.0",
+          "3.2.0"
         ],
         "abi": [
           "cp311"
@@ -2067,7 +2226,8 @@
       {
         "name": "torch",
         "version": [
-          "2.10.0"
+          "2.10.0",
+          "2.12.0"
         ],
         "abi": [
           "cp310",
@@ -2099,18 +2259,6 @@
         ],
         "abi": [
           "cp310",
-          "cp312",
-          "cp313",
-          "cp314"
-        ],
-        "platform": "manylinux_2_38_riscv64"
-      },
-      {
-        "name": "torch",
-        "version": [
-          "2.12.0"
-        ],
-        "abi": [
           "cp312",
           "cp313",
           "cp314"
