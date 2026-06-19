@@ -1,5 +1,5 @@
 {
-  "updated_at": "1781749825",
+  "updated_at": "1781836225",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -82,6 +82,27 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "caio",
+        "version": [
+          "0.9.24",
+          "0.9.23",
+          "0.9.21",
+          "0.9.16",
+          "0.9.15",
+          "0.9.11",
+          "0.9.8",
+          "0.9.10",
+          "0.0.3"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -396,6 +417,16 @@
         "version": [
           "1.4.3",
           "1.4.2"
+        ],
+        "abi": [
+          "cp310"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "dm_tree",
+        "version": [
+          "0.1.7"
         ],
         "abi": [
           "cp310"
@@ -750,7 +781,12 @@
           "1.8.4",
           "1.8.2",
           "1.8.1",
-          "1.8.0"
+          "1.8.0",
+          "0.4.8",
+          "1.0.0",
+          "1.2.0",
+          "1.5.1",
+          "0.4.10"
         ],
         "abi": [
           "cp310",
@@ -765,7 +801,6 @@
         "name": "libcst",
         "version": [
           "0.4.9",
-          "0.4.8",
           "0.4.6",
           "0.4.3",
           "1.3.1",
@@ -2412,6 +2447,20 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "tree_sitter_javascript",
+        "version": [
+          "0.25.0",
+          "0.23.1",
+          "0.21.3",
+          "0.21.1",
+          "0.21.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "tree_sitter_python",
         "version": [
           "0.23.3",
@@ -2425,6 +2474,57 @@
         ],
         "abi": [
           "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "tree_sitter_typescript",
+        "version": [
+          "0.23.0",
+          "0.21.2",
+          "0.21.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "uuid_utils",
+        "version": [
+          "0.15.0a3",
+          "0.15.0a1"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "uuid_utils",
+        "version": [
+          "0.14.1",
+          "0.12.0",
+          "0.10.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "uuid_utils",
+        "version": [
+          "0.7.0"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
