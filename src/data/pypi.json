@@ -1,5 +1,5 @@
 {
-  "updated_at": "1782441026",
+  "updated_at": "1782527429",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -140,6 +140,20 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cchardet",
+        "version": [
+          "2.1.6",
+          "2.1.4",
+          "2.1.0",
+          "2.0.1",
+          "2.0a2"
+        ],
+        "abi": [
+          "cp310"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
