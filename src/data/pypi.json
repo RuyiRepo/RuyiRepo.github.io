@@ -1,5 +1,5 @@
 {
-  "updated_at": "1782527429",
+  "updated_at": "1782613827",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -153,7 +153,11 @@
           "2.0a2"
         ],
         "abi": [
-          "cp310"
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -2053,6 +2057,16 @@
         "abi": [
           "cp311",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "safetensors",
+        "version": [
+          "0.8.0.dev0"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
