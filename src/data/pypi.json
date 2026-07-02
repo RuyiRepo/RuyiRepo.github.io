@@ -1,5 +1,5 @@
 {
-  "updated_at": "1782873027",
+  "updated_at": "1782959428",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -2087,7 +2087,8 @@
         "name": "pysam",
         "version": [
           "0.22.0",
-          "0.23.0"
+          "0.23.0",
+          "0.24.0"
         ],
         "abi": [
           "cp310",
@@ -2095,16 +2096,6 @@
           "cp312",
           "cp313",
           "cp314"
-        ],
-        "platform": "manylinux_2_38_riscv64"
-      },
-      {
-        "name": "pysam",
-        "version": [
-          "0.24.0"
-        ],
-        "abi": [
-          "cp312"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -2158,6 +2149,21 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "rpds_py",
+        "version": [
+          "0.22.1",
+          "0.20.0",
+          "0.19.1"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -2709,6 +2715,19 @@
         ],
         "abi": [
           "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ty",
+        "version": [
+          "0.0.49",
+          "0.0.48",
+          "0.0.47",
+          "0.0.42"
+        ],
+        "abi": [
+          "none"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
