@@ -1,5 +1,5 @@
 {
-  "updated_at": "1783045829",
+  "updated_at": "1783132229",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -706,6 +706,20 @@
         ],
         "abi": [
           "cp310"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "grpcio",
+        "version": [
+          "1.80.0"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
