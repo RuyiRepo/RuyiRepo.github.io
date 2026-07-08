@@ -1,5 +1,5 @@
 {
-  "updated_at": "1783391426",
+  "updated_at": "1783477826",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -1161,6 +1161,20 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "mpi4py",
+        "version": [
+          "4.1.1"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "msgpack",
         "version": [
           "1.0.6",
@@ -2135,6 +2149,21 @@
         ],
         "abi": [
           "cp311",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyzmq",
+        "version": [
+          "27.1.0",
+          "27.0.2"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
           "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
