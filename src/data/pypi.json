@@ -1,5 +1,5 @@
 {
-  "updated_at": "1783564226",
+  "updated_at": "1783650626",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -1878,6 +1878,20 @@
         "name": "psycopg2",
         "version": [
           "2.9.8"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "psycopg2_binary",
+        "version": [
+          "2.9.12"
         ],
         "abi": [
           "cp310",
