@@ -1,5 +1,5 @@
 {
-  "updated_at": "1783823426",
+  "updated_at": "1783909843",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -2299,6 +2299,20 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "ruamel_yaml_clib",
+        "version": [
+          "0.2.14"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "safetensors",
         "version": [
           "0.8.0.dev0"
@@ -2312,6 +2326,20 @@
         "name": "scikit_image",
         "version": [
           "0.22.0"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "selenium",
+        "version": [
+          "4.44.0"
         ],
         "abi": [
           "cp310",
