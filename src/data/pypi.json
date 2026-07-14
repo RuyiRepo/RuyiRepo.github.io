@@ -1,5 +1,5 @@
 {
-  "updated_at": "1783909843",
+  "updated_at": "1783996226",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -271,6 +271,22 @@
           "cp310",
           "cp311",
           "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "crcmod",
+        "version": [
+          "1.6.1",
+          "1.6",
+          "1.7"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -2682,6 +2698,22 @@
           "2.0.24"
         ],
         "abi": [
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "thrift",
+        "version": [
+          "0.22.0",
+          "0.23.0",
+          "0.24.0"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
           "cp313",
           "cp314"
         ],
