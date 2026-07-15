@@ -1,5 +1,5 @@
 {
-  "updated_at": "1783996226",
+  "updated_at": "1784082627",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -2780,6 +2780,18 @@
           "cp311",
           "cp312",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "torch",
+        "version": [
+          "2.13.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
