@@ -1,5 +1,5 @@
 {
-  "updated_at": "1784082627",
+  "updated_at": "1784169027",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -2349,6 +2349,29 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "scipy",
+        "version": [
+          "1.18.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "scipy",
+        "version": [
+          "1.18.0rc2",
+          "1.18.0rc1"
+        ],
+        "abi": [
+          "cp312"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
