@@ -1,5 +1,5 @@
 {
-  "updated_at": "1784169027",
+  "updated_at": "1784255427",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -740,6 +740,22 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "grpcio_tools",
+        "version": [
+          "1.83.0rc1",
+          "1.82.1",
+          "1.82.0"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "hf_xet",
         "version": [
           "1.5.0"
@@ -926,6 +942,18 @@
           "cp311",
           "cp312",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "lightgbm",
+        "version": [
+          "4.6.0",
+          "4.5.0",
+          "4.4.0"
+        ],
+        "abi": [
+          "none"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -2764,6 +2792,18 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "tokenizers",
+        "version": [
+          "0.23.1",
+          "0.23.0rc0",
+          "0.23.1rc0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "torch",
         "version": [
           "2.9.0"
@@ -3031,6 +3071,22 @@
         "abi": [
           "cp310",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "uvloop",
+        "version": [
+          "0.22.1",
+          "0.21.0",
+          "0.21.0b1"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
