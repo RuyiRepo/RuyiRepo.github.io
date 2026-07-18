@@ -1,5 +1,5 @@
 {
-  "updated_at": "1784255427",
+  "updated_at": "1784341827",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -2138,6 +2138,19 @@
         "name": "pynacl",
         "version": [
           "1.5.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyproj",
+        "version": [
+          "3.7.2"
         ],
         "abi": [
           "cp311",
