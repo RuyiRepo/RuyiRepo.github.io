@@ -1,7 +1,21 @@
 {
-  "updated_at": "1784514637",
+  "updated_at": "1784601034",
   "supportedSoftware": {
     "riscv64": [
+      {
+        "name": "aiohttp",
+        "version": [
+          "3.14.1"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
       {
         "name": "audioop_lts",
         "version": [
@@ -2396,7 +2410,8 @@
       {
         "name": "scipy",
         "version": [
-          "1.18.0"
+          "1.18.0",
+          "1.18.0rc2"
         ],
         "abi": [
           "cp312",
@@ -2408,7 +2423,6 @@
       {
         "name": "scipy",
         "version": [
-          "1.18.0rc2",
           "1.18.0rc1"
         ],
         "abi": [
