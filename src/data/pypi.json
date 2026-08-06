@@ -1,5 +1,5 @@
 {
-  "updated_at": "1784860236",
+  "updated_at": "1785983433",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -2408,6 +2408,19 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "scikit_learn",
+        "version": [
+          "1.8.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "scipy",
         "version": [
           "1.18.0",
@@ -2427,6 +2440,19 @@
         ],
         "abi": [
           "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "scipy",
+        "version": [
+          "1.15.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -2879,6 +2905,7 @@
           "2.13.0"
         ],
         "abi": [
+          "cp310",
           "cp312",
           "cp313",
           "cp314"
