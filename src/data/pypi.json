@@ -1,5 +1,5 @@
 {
-  "updated_at": "1786329034",
+  "updated_at": "1786415437",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -2446,7 +2446,8 @@
       {
         "name": "scipy",
         "version": [
-          "1.15.1"
+          "1.15.1",
+          "1.15.0"
         ],
         "abi": [
           "cp311",
