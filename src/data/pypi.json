@@ -1,5 +1,5 @@
 {
-  "updated_at": "1786415437",
+  "updated_at": "1786501836",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -956,6 +956,19 @@
           "cp311",
           "cp312",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "libcst",
+        "version": [
+          "1.9.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -1978,6 +1991,17 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "pyarrow",
+        "version": [
+          "25.0.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "pycryptodome",
         "version": [
           "3.16.0",
@@ -2424,7 +2448,8 @@
         "name": "scipy",
         "version": [
           "1.18.0",
-          "1.18.0rc2"
+          "1.18.0rc2",
+          "1.16.2"
         ],
         "abi": [
           "cp312",
@@ -2640,6 +2665,17 @@
           "cp310",
           "cp311",
           "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "soxr",
+        "version": [
+          "1.0.0"
+        ],
+        "abi": [
+          "abi3",
+          "cp311"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
