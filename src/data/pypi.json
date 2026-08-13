@@ -1,5 +1,5 @@
 {
-  "updated_at": "1786501836",
+  "updated_at": "1786588234",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -1997,6 +1997,8 @@
         ],
         "abi": [
           "cp311",
+          "cp312",
+          "cp313",
           "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
@@ -2182,6 +2184,17 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyodbc",
+        "version": [
+          "5.1.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
