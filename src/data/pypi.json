@@ -1,5 +1,5 @@
 {
-  "updated_at": "1786933830",
+  "updated_at": "1787020237",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -95,6 +95,18 @@
         ],
         "abi": [
           "cp311"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "blosc2",
+        "version": [
+          "4.10.1"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -1570,23 +1582,12 @@
       {
         "name": "numba",
         "version": [
-          "0.67.0"
+          "0.67.0",
+          "0.67.0rc1",
+          "0.66.0"
         ],
         "abi": [
           "cp310",
-          "cp311",
-          "cp312",
-          "cp313",
-          "cp314"
-        ],
-        "platform": "manylinux_2_38_riscv64"
-      },
-      {
-        "name": "numba",
-        "version": [
-          "0.67.0rc1"
-        ],
-        "abi": [
           "cp311",
           "cp312",
           "cp313",
@@ -2174,6 +2175,20 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "pyerfa",
+        "version": [
+          "2.0.1.4",
+          "2.0.1.3",
+          "2.0.1.2",
+          "2.0.1",
+          "2.0.1.1"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "pymongo",
         "version": [
           "4.15.4",
@@ -2235,6 +2250,22 @@
           "3.12.1",
           "3.11.2",
           "3.9.0"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pymssql",
+        "version": [
+          "2.3.13",
+          "2.3.12",
+          "2.3.11"
         ],
         "abi": [
           "cp310",
@@ -2688,6 +2719,22 @@
         "abi": [
           "cp310",
           "cp311"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "simpleaudio",
+        "version": [
+          "1.0.4",
+          "1.0.2",
+          "1.0.3"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
