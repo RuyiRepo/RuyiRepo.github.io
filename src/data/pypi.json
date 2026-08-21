@@ -1,5 +1,5 @@
 {
-  "updated_at": "1787193032",
+  "updated_at": "1787279433",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -2214,6 +2214,50 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pycocotools",
+        "version": [
+          "2.0.9"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pycrypto",
+        "version": [
+          "2.5"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pycrypto",
+        "version": [
+          "2.4.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pycrypto",
+        "version": [
+          "2.4"
+        ],
+        "abi": [
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
