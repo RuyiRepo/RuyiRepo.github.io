@@ -1,5 +1,5 @@
 {
-  "updated_at": "1787538631",
+  "updated_at": "1787625045",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -75,6 +75,19 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "backports_zstd",
+        "version": [
+          "1.5.0",
+          "1.7.0",
+          "1.6.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -274,18 +287,7 @@
       {
         "name": "contourpy",
         "version": [
-          "1.3.2"
-        ],
-        "abi": [
-          "cp312",
-          "cp313",
-          "cp314"
-        ],
-        "platform": "manylinux_2_38_riscv64"
-      },
-      {
-        "name": "contourpy",
-        "version": [
+          "1.3.2",
           "1.3.1",
           "1.3.0"
         ],
@@ -317,6 +319,16 @@
           "cp311",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "contourpy",
+        "version": [
+          "1.3.3"
+        ],
+        "abi": [
+          "cp311"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -2239,17 +2251,33 @@
         ],
         "abi": [
           "cp311",
-          "cp313"
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pycocotools",
+        "version": [
+          "2.0.11",
+          "2.0.10"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
       {
         "name": "pycrypto",
         "version": [
-          "2.5"
+          "2.5",
+          "2.6",
+          "2.6.1"
         ],
         "abi": [
           "cp311",
+          "cp312",
           "cp313",
           "cp314"
         ],
@@ -3455,11 +3483,13 @@
       {
         "name": "tree_sitter",
         "version": [
-          "0.25.2",
-          "0.23.2"
+          "0.25.2"
         ],
         "abi": [
-          "cp311"
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -3474,9 +3504,40 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "tree_sitter",
+        "version": [
+          "0.23.2"
+        ],
+        "abi": [
+          "cp311"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "tree_sitter",
+        "version": [
+          "0.26.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "tree_sitter_go",
         "version": [
           "0.25.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "tree_sitter_java",
+        "version": [
+          "0.23.5"
         ],
         "abi": [
           "abi3"
@@ -3552,6 +3613,32 @@
         ],
         "abi": [
           "none"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ujson",
+        "version": [
+          "5.13.0",
+          "5.12.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ujson",
+        "version": [
+          "5.12.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -3752,6 +3839,18 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "xgboost",
+        "version": [
+          "3.3.0",
+          "3.4.0",
+          "3.4.1"
+        ],
+        "abi": [
+          "none"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
