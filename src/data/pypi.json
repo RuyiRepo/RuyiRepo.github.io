@@ -1,5 +1,5 @@
 {
-  "updated_at": "1787711442",
+  "updated_at": "1787797835",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -481,6 +481,23 @@
         ],
         "abi": [
           "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cymem",
+        "version": [
+          "2.0.9a3",
+          "2.0.9a2",
+          "2.0.12",
+          "2.0.10",
+          "2.0.11"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -975,6 +992,20 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "hiredis",
+        "version": [
+          "3.4.0",
+          "3.4.0.dev0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "httptools",
         "version": [
           "0.6.3",
@@ -1032,6 +1063,22 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "jpype1",
+        "version": [
+          "1.5.2",
+          "1.5.1",
+          "1.6.0",
+          "1.5.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "kiwisolver",
         "version": [
           "1.4.8",
@@ -1052,6 +1099,19 @@
         ],
         "abi": [
           "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "lanms_neo",
+        "version": [
+          "1.0.2"
+        ],
+        "abi": [
           "cp311",
           "cp312",
           "cp313",
@@ -1426,6 +1486,17 @@
         "abi": [
           "cp312",
           "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "maturin",
+        "version": [
+          "1.14.0"
+        ],
+        "abi": [
+          "cp312",
           "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
@@ -2810,23 +2881,12 @@
       {
         "name": "pywavelets",
         "version": [
-          "1.7.0"
-        ],
-        "abi": [
-          "cp311",
-          "cp312",
-          "cp313",
-          "cp314"
-        ],
-        "platform": "manylinux_2_38_riscv64"
-      },
-      {
-        "name": "pywavelets",
-        "version": [
+          "1.7.0",
           "1.8.0",
           "1.9.0"
         ],
         "abi": [
+          "cp311",
           "cp312",
           "cp313",
           "cp314"
@@ -3430,7 +3490,8 @@
         ],
         "abi": [
           "cp312",
-          "cp313"
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -3501,6 +3562,20 @@
           "0.13.0"
         ],
         "abi": [
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "time_machine",
+        "version": [
+          "3.1.0",
+          "3.2.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
           "cp313",
           "cp314"
         ],
@@ -3685,6 +3760,17 @@
         ],
         "abi": [
           "cp311"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "tree_sitter_c",
+        "version": [
+          "0.24.1",
+          "0.24.0"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
