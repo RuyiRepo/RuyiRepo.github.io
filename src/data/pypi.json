@@ -1,5 +1,5 @@
 {
-  "updated_at": "1787884240",
+  "updated_at": "1787970633",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -442,6 +442,20 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "crc16",
+        "version": [
+          "0.1.1",
+          "0.1.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "crcmod",
         "version": [
           "1.6.1",
@@ -620,36 +634,15 @@
       {
         "name": "cytoolz",
         "version": [
-          "1.1.0"
-        ],
-        "abi": [
-          "cp311",
-          "cp313"
-        ],
-        "platform": "manylinux_2_38_riscv64"
-      },
-      {
-        "name": "cytoolz",
-        "version": [
-          "1.1.0a2"
+          "1.1.0",
+          "1.1.0a2",
+          "1.0.1"
         ],
         "abi": [
           "cp311",
           "cp312",
           "cp313",
           "cp314"
-        ],
-        "platform": "manylinux_2_38_riscv64"
-      },
-      {
-        "name": "cytoolz",
-        "version": [
-          "1.0.1"
-        ],
-        "abi": [
-          "cp311",
-          "cp312",
-          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -2397,6 +2390,18 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "preshed",
+        "version": [
+          "3.0.12"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "propcache",
         "version": [
           "0.4.1",
@@ -2551,6 +2556,22 @@
           "25.0.0"
         ],
         "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyarrow",
+        "version": [
+          "21.0.0",
+          "20.0.0",
+          "22.0.0"
+        ],
+        "abi": [
+          "cp310",
           "cp311",
           "cp312",
           "cp313",
@@ -4016,6 +4037,16 @@
         ],
         "abi": [
           "none"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "typed_ast",
+        "version": [
+          "1.5.4"
+        ],
+        "abi": [
+          "cp311"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
