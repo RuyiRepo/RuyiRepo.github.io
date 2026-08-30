@@ -1,5 +1,5 @@
 {
-  "updated_at": "1787970633",
+  "updated_at": "1788057034",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -22,6 +22,17 @@
           "25.1.0",
           "26.1.0",
           "21.2.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ast_serialize",
+        "version": [
+          "0.7.0",
+          "0.6.0"
         ],
         "abi": [
           "abi3"
@@ -301,6 +312,19 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "ciso8601",
+        "version": [
+          "2.3.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "cmake",
         "version": [
           "4.2.1"
@@ -442,10 +466,73 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "cramjam",
+        "version": [
+          "2.12.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cramjam",
+        "version": [
+          "2.12.1",
+          "2.12.0rc1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "crc16",
         "version": [
           "0.1.1",
           "0.1.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "crc32c",
+        "version": [
+          "2.9"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "crc32c",
+        "version": [
+          "2.8"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "crc32c",
+        "version": [
+          "2.7.1.post0"
         ],
         "abi": [
           "cp311",
@@ -2392,10 +2479,13 @@
       {
         "name": "preshed",
         "version": [
-          "3.0.12"
+          "3.0.12",
+          "4.0.0",
+          "3.0.13"
         ],
         "abi": [
           "cp311",
+          "cp312",
           "cp313",
           "cp314"
         ],
@@ -2421,6 +2511,17 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "prophet",
+        "version": [
+          "1.2.2",
+          "1.4.0"
+        ],
+        "abi": [
+          "none"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -4043,10 +4144,12 @@
       {
         "name": "typed_ast",
         "version": [
-          "1.5.4"
+          "1.5.4",
+          "1.5.5"
         ],
         "abi": [
-          "cp311"
+          "cp311",
+          "cp312"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
