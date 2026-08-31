@@ -1,5 +1,5 @@
 {
-  "updated_at": "1788057034",
+  "updated_at": "1788143434",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -319,6 +319,32 @@
         "abi": [
           "cp311",
           "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "clickhouse_connect",
+        "version": [
+          "1.8.0rc1",
+          "1.8.0rc3"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "clickhouse_connect",
+        "version": [
+          "1.8.0rc2"
+        ],
+        "abi": [
+          "cp311",
           "cp313",
           "cp314"
         ],
@@ -1137,6 +1163,19 @@
         "version": [
           "3.4.0",
           "3.4.0.dev0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "hnswlib",
+        "version": [
+          "0.8.0"
         ],
         "abi": [
           "cp311",
