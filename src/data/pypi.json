@@ -1,5 +1,5 @@
 {
-  "updated_at": "1788229833",
+  "updated_at": "1788316237",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -807,7 +807,8 @@
       {
         "name": "deltalake",
         "version": [
-          "1.6.3"
+          "1.6.3",
+          "1.5.1"
         ],
         "abi": [
           "abi3"
