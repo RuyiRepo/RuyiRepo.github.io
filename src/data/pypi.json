@@ -1,5 +1,5 @@
 {
-  "updated_at": "1788402635",
+  "updated_at": "1788489036",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -23,6 +23,48 @@
         ],
         "abi": [
           "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "aiohttp",
+        "version": [
+          "4.0.0a0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "aiokafka",
+        "version": [
+          "0.14.0b1",
+          "0.14.0",
+          "0.13.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "amazon_ion",
+        "version": [
+          "0.12.0",
+          "0.13.0"
+        ],
+        "abi": [
           "cp311",
           "cp312",
           "cp313",
@@ -225,7 +267,9 @@
         ],
         "abi": [
           "cp311",
-          "cp312"
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -381,6 +425,19 @@
         ],
         "abi": [
           "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "clickhouse_driver",
+        "version": [
+          "0.2.10"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
           "cp313",
           "cp314"
         ],
@@ -2832,11 +2889,15 @@
       {
         "name": "pycosat",
         "version": [
-          "0.6.3"
+          "0.6.3",
+          "0.6.6",
+          "0.6.1"
         ],
         "abi": [
           "cp311",
-          "cp313"
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -3323,6 +3384,20 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "rasterio",
+        "version": [
+          "1.5.0",
+          "1.5.1",
+          "1.5rc1"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "rpds_py",
         "version": [
           "2026.5.1"
@@ -3413,7 +3488,9 @@
         ],
         "abi": [
           "cp311",
-          "cp313"
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -3647,6 +3724,16 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "shellcheck_py",
+        "version": [
+          "0.11.0.1"
+        ],
+        "abi": [
+          "none"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "simpleaudio",
         "version": [
           "1.0.4",
@@ -3833,6 +3920,21 @@
           "3.8.14"
         ],
         "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "spidev",
+        "version": [
+          "3.7",
+          "3.8",
+          "3.6"
+        ],
+        "abi": [
+          "cp311",
           "cp312",
           "cp313",
           "cp314"
@@ -4564,6 +4666,19 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "wxPython",
+        "version": [
+          "4.2.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "xgboost",
         "version": [
           "3.3.0",
@@ -4725,6 +4840,18 @@
         ],
         "abi": [
           "cp310"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "zopfli",
+        "version": [
+          "0.4.2",
+          "0.4.3",
+          "0.4.1"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
