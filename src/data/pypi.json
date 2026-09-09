@@ -1,5 +1,5 @@
 {
-  "updated_at": "1788834636",
+  "updated_at": "1788921039",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -5661,6 +5661,16 @@
         "version": [
           "0.23.4",
           "0.23.5"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "tree_sitter_cpp",
+        "version": [
+          "0.23.4"
         ],
         "abi": [
           "abi3"
