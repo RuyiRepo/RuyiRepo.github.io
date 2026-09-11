@@ -1,5 +1,5 @@
 {
-  "updated_at": "1789007449",
+  "updated_at": "1789093836",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -5044,6 +5044,19 @@
         ],
         "abi": [
           "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "simpleitk",
+        "version": [
+          "2.5.3"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
           "cp313",
           "cp314"
         ],
