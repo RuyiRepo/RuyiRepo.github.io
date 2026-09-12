@@ -1,5 +1,5 @@
 {
-  "updated_at": "1789093836",
+  "updated_at": "1789180236",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -4081,6 +4081,19 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "pyfim",
+        "version": [
+          "6.28"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "pyiceberg",
         "version": [
           "0.12.0rc1",
@@ -5576,6 +5589,16 @@
           "cp311",
           "cp312",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "torch",
+        "version": [
+          "2.14.0"
+        ],
+        "abi": [
+          "cp312"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
