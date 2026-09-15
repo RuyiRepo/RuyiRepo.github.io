@@ -1,5 +1,5 @@
 {
-  "updated_at": "1789353041",
+  "updated_at": "1789439438",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -3185,7 +3185,9 @@
           "4.13.0+bfc4016",
           "4.13.0.92",
           "5.0.0.93",
-          "5.0.0+dbe54d4"
+          "5.0.0+dbe54d4",
+          "5.0.0.5.0.0.93",
+          "4.14.0.4.14.0.94"
         ],
         "abi": [
           "cp311",
@@ -4755,6 +4757,19 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "safe_pysha3",
+        "version": [
+          "1.0.5"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "safetensors",
         "version": [
           "0.8.0.dev0",
@@ -5599,7 +5614,8 @@
         ],
         "abi": [
           "cp310",
-          "cp312"
+          "cp312",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -5844,6 +5860,16 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "tree_sitter_yaml",
+        "version": [
+          "0.7.2"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "ty",
         "version": [
           "0.0.49",
@@ -6000,6 +6026,16 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "wandb",
+        "version": [
+          "0.29.0"
+        ],
+        "abi": [
+          "none"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
