@@ -1,5 +1,5 @@
 {
-  "updated_at": "1789439438",
+  "updated_at": "1789525837",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -33,6 +33,21 @@
         "name": "MarkupSafe",
         "version": [
           "3.0.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "RPi.GPIO",
+        "version": [
+          "0.7.1a4",
+          "0.7.1",
+          "0.7.1a3"
         ],
         "abi": [
           "cp311",
@@ -3560,6 +3575,17 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "plotext",
+        "version": [
+          "6.1.0",
+          "6.0.0"
+        ],
+        "abi": [
+          "none"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "polyleven",
         "version": [
           "0.11.0",
@@ -4470,9 +4496,13 @@
       {
         "name": "python_bidi",
         "version": [
-          "0.6.11"
+          "0.6.11",
+          "0.6.9",
+          "0.6.10"
         ],
         "abi": [
+          "cp311",
+          "cp312",
           "cp313",
           "cp314"
         ],
@@ -5433,6 +5463,16 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "temporalio",
+        "version": [
+          "1.30.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "textual_speedups",
         "version": [
           "0.2.1",
@@ -5582,7 +5622,8 @@
           "2.10.0",
           "2.11.0",
           "2.12.0",
-          "2.13.0"
+          "2.13.0",
+          "2.14.0"
         ],
         "abi": [
           "cp310",
@@ -5604,18 +5645,6 @@
           "cp311",
           "cp312",
           "cp313"
-        ],
-        "platform": "manylinux_2_38_riscv64"
-      },
-      {
-        "name": "torch",
-        "version": [
-          "2.14.0"
-        ],
-        "abi": [
-          "cp310",
-          "cp312",
-          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -5839,6 +5868,16 @@
           "0.21.0",
           "0.25.0",
           "0.23.5"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "tree_sitter_ruby",
+        "version": [
+          "0.23.1"
         ],
         "abi": [
           "abi3"
