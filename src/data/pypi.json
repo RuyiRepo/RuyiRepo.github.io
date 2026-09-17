@@ -1,5 +1,5 @@
 {
-  "updated_at": "1789525837",
+  "updated_at": "1789612236",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -992,6 +992,19 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "cvxopt",
+        "version": [
+          "1.3.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "cymem",
         "version": [
           "2.0.9a3",
@@ -1744,6 +1757,29 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "hf_transfer",
+        "version": [
+          "0.1.9rc0",
+          "0.1.9"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "hf_transfer",
+        "version": [
+          "0.1.8"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "hf_xet",
         "version": [
           "1.5.0",
@@ -2022,6 +2058,20 @@
         "name": "lanms_neo",
         "version": [
           "1.0.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "lap",
+        "version": [
+          "0.5.12",
+          "0.5.13"
         ],
         "abi": [
           "cp311",
@@ -3845,6 +3895,21 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "pybase64",
+        "version": [
+          "1.4.2",
+          "1.4.3",
+          "1.5.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "pybcj",
         "version": [
           "1.0.6",
@@ -5463,9 +5528,26 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "systemd_python",
+        "version": [
+          "233",
+          "235",
+          "234"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "temporalio",
         "version": [
-          "1.30.0"
+          "1.30.0",
+          "1.31.0",
+          "1.32.0"
         ],
         "abi": [
           "abi3"
@@ -5851,6 +5933,16 @@
           "1.15.8",
           "1.16.2",
           "1.16.1"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "tree_sitter_php",
+        "version": [
+          "0.24.1"
         ],
         "abi": [
           "abi3"
