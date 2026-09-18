@@ -1,5 +1,5 @@
 {
-  "updated_at": "1789612236",
+  "updated_at": "1789698634",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -2001,10 +2001,23 @@
         "version": [
           "1.5.2",
           "1.5.1",
-          "1.6.0",
           "1.5.0"
         ],
         "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "jpype1",
+        "version": [
+          "1.6.0"
+        ],
+        "abi": [
+          "cp310",
           "cp311",
           "cp312",
           "cp313",
@@ -5106,6 +5119,29 @@
         "abi": [
           "cp310",
           "cp311"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "shap",
+        "version": [
+          "0.53.0rc0",
+          "0.52.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "shap",
+        "version": [
+          "0.51.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
