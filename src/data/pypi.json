@@ -1,5 +1,5 @@
 {
-  "updated_at": "1789698634",
+  "updated_at": "1789785036",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -426,6 +426,16 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "blosc2",
+        "version": [
+          "4.13.1"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -995,6 +1005,21 @@
         "name": "cvxopt",
         "version": [
           "1.3.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cx_Oracle",
+        "version": [
+          "8.3.0",
+          "8.2.0",
+          "8.2.1"
         ],
         "abi": [
           "cp311",
@@ -4887,6 +4912,19 @@
         ],
         "abi": [
           "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "salsa20",
+        "version": [
+          "0.3.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
