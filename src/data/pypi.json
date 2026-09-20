@@ -1,5 +1,5 @@
 {
-  "updated_at": "1789785036",
+  "updated_at": "1789871437",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -1437,6 +1437,21 @@
         "name": "fastuuid",
         "version": [
           "0.14.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "fiona",
+        "version": [
+          "1.10.1",
+          "1.10.0",
+          "1.10.0rc1"
         ],
         "abi": [
           "cp311",
@@ -4602,6 +4617,21 @@
           "0.6.11",
           "0.6.9",
           "0.6.10"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "python_box",
+        "version": [
+          "7.3.3",
+          "7.4.1",
+          "7.3.2"
         ],
         "abi": [
           "cp311",
