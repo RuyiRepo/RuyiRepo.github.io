@@ -1,5 +1,5 @@
 {
-  "updated_at": "1789871437",
+  "updated_at": "1789957837",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -242,6 +242,21 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "backports_datetime_fromisoformat",
+        "version": [
+          "2.0.2",
+          "2.0.1",
+          "2.0.3"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "backports_zoneinfo",
         "version": [
           "0.2.1",
@@ -432,7 +447,8 @@
       {
         "name": "blosc2",
         "version": [
-          "4.13.1"
+          "4.13.1",
+          "4.12.0"
         ],
         "abi": [
           "abi3"
@@ -490,6 +506,20 @@
         ],
         "abi": [
           "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "brotlipy",
+        "version": [
+          "0.7.0",
+          "0.6.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -1786,7 +1816,8 @@
         "name": "h3",
         "version": [
           "4.5.0a3",
-          "4.5.0a2"
+          "4.5.0a2",
+          "4.5.0"
         ],
         "abi": [
           "cp311",
@@ -1855,6 +1886,20 @@
         ],
         "abi": [
           "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "hmmlearn",
+        "version": [
+          "0.3.2",
+          "0.3.3",
+          "0.3.0"
+        ],
+        "abi": [
           "cp312",
           "cp313",
           "cp314"
@@ -2313,6 +2358,21 @@
         ],
         "abi": [
           "none"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "line_profiler",
+        "version": [
+          "5.0.1",
+          "5.0.2",
+          "5.0.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -3170,7 +3230,6 @@
           "2.10.1",
           "2.10.0",
           "2.14.0",
-          "2.14.2",
           "2.14.1"
         ],
         "abi": [
@@ -3189,6 +3248,19 @@
         ],
         "abi": [
           "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "numexpr",
+        "version": [
+          "2.14.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -4663,6 +4735,21 @@
         ],
         "abi": [
           "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pytrec_eval",
+        "version": [
+          "0.5",
+          "0.3",
+          "0.4"
+        ],
+        "abi": [
           "cp311",
           "cp312",
           "cp313",
