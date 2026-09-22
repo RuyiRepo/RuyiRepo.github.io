@@ -1,5 +1,5 @@
 {
-  "updated_at": "1789957837",
+  "updated_at": "1790044235",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -448,7 +448,8 @@
         "name": "blosc2",
         "version": [
           "4.13.1",
-          "4.12.0"
+          "4.12.0",
+          "4.13.0"
         ],
         "abi": [
           "abi3"
@@ -1215,6 +1216,21 @@
         ],
         "abi": [
           "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "dbus_python",
+        "version": [
+          "1.2.18",
+          "1.3.2",
+          "1.4.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -4550,6 +4566,21 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "pyqt5_sip",
+        "version": [
+          "12.18.0",
+          "12.17.2",
+          "12.19.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "pyroaring",
         "version": [
           "1.0.3",
@@ -5063,10 +5094,22 @@
         "name": "scikit_image",
         "version": [
           "0.26.0rc1",
-          "0.26.0",
           "0.26.0rc2"
         ],
         "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "scikit_image",
+        "version": [
+          "0.26.0"
+        ],
+        "abi": [
+          "cp311",
           "cp312",
           "cp313",
           "cp314"
@@ -5757,6 +5800,17 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "thinc",
+        "version": [
+          "9.1.1",
+          "9.1.0"
+        ],
+        "abi": [
+          "cp312"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
