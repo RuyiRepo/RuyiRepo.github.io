@@ -1,5 +1,5 @@
 {
-  "updated_at": "1790044235",
+  "updated_at": "1790130636",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -2127,6 +2127,20 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "jq",
+        "version": [
+          "1.10.0",
+          "1.11.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "kiwisolver",
         "version": [
           "1.4.8",
@@ -3371,6 +3385,17 @@
         ],
         "abi": [
           "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "onnxruntime",
+        "version": [
+          "1.29.1"
+        ],
+        "abi": [
+          "cp312",
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -4707,6 +4732,20 @@
         ],
         "abi": [
           "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pytabix",
+        "version": [
+          "0.0.2",
+          "0.1"
+        ],
+        "abi": [
           "cp311",
           "cp312",
           "cp313",
