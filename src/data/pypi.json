@@ -1,5 +1,5 @@
 {
-  "updated_at": "1791426631",
+  "updated_at": "1791513031",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -6292,7 +6292,8 @@
       {
         "name": "torch",
         "version": [
-          "2.9.0"
+          "2.9.0",
+          "2.14.1"
         ],
         "abi": [
           "cp311",
