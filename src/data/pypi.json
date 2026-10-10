@@ -1,5 +1,5 @@
 {
-  "updated_at": "1791513031",
+  "updated_at": "1791599432",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -1252,7 +1252,8 @@
       {
         "name": "datefinder",
         "version": [
-          "1.0.0rc3"
+          "1.0.0rc3",
+          "1.0.0"
         ],
         "abi": [
           "abi3"
@@ -1684,7 +1685,10 @@
         "name": "geventhttpclient",
         "version": [
           "2.3.8",
-          "2.3.9"
+          "2.3.9",
+          "2.5.1",
+          "2.6.0",
+          "2.5.0"
         ],
         "abi": [
           "cp311",
@@ -3482,7 +3486,8 @@
         "version": [
           "2.5.0",
           "2.5.1",
-          "2.5.2"
+          "2.5.2",
+          "2.5.3"
         ],
         "abi": [
           "cp312",
@@ -3938,6 +3943,29 @@
         ],
         "abi": [
           "none"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pmdarima",
+        "version": [
+          "0.0.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pmdarima",
+        "version": [
+          "2.0.4"
+        ],
+        "abi": [
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -4576,6 +4604,19 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "pyliblzfse",
+        "version": [
+          "0.4.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "pymongo",
         "version": [
           "4.15.4",
@@ -4654,6 +4695,19 @@
         ],
         "abi": [
           "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pymoo",
+        "version": [
+          "0.6.1.5",
+          "0.6.2"
+        ],
+        "abi": [
           "cp312",
           "cp313",
           "cp314"
@@ -6616,6 +6670,19 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "twofish",
+        "version": [
+          "0.3.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "ty",
         "version": [
           "0.0.49",
@@ -6804,6 +6871,19 @@
           "1.1.0",
           "1.2.0",
           "1.1.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "watchgod",
+        "version": [
+          "0.10a1"
         ],
         "abi": [
           "cp311",
