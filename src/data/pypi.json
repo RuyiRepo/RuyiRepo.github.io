@@ -1,5 +1,5 @@
 {
-  "updated_at": "1791685832",
+  "updated_at": "1791772232",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -7424,6 +7424,21 @@
           "cp310",
           "cp311",
           "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "zstd",
+        "version": [
+          "1.5.7.2",
+          "1.5.7.3",
+          "1.5.7.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       }
