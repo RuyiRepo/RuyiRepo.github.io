@@ -1,5 +1,5 @@
 {
-  "updated_at": "1791772232",
+  "updated_at": "1791858631",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -517,7 +517,8 @@
         "name": "brotlicffi",
         "version": [
           "1.2.0.1",
-          "1.2.0.2"
+          "1.2.0.2",
+          "1.2.0.0"
         ],
         "abi": [
           "abi3"
@@ -5041,6 +5042,20 @@
         "version": [
           "0.0.2",
           "0.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "python_Levenshtein_wheels",
+        "version": [
+          "0.13.1",
+          "0.13.2"
         ],
         "abi": [
           "cp311",
