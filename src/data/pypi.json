@@ -1,5 +1,5 @@
 {
-  "updated_at": "1791858631",
+  "updated_at": "1791945029",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -174,7 +174,9 @@
         "version": [
           "0.8.0",
           "0.8.2",
-          "0.8.1"
+          "0.8.1",
+          "0.9.0",
+          "0.9.1"
         ],
         "abi": [
           "cp311",
@@ -1479,6 +1481,19 @@
           "1.4.4",
           "1.4.4b3",
           "1.4.4b4"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "fastBPE",
+        "version": [
+          "0.1.0"
         ],
         "abi": [
           "cp311",
@@ -4229,6 +4244,16 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "py_spy",
+        "version": [
+          "0.4.2"
+        ],
+        "abi": [
+          "none"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "pyahocorasick",
         "version": [
           "2.2.0"
@@ -4609,6 +4634,21 @@
         "name": "pyjnius",
         "version": [
           "1.7.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyjson5",
+        "version": [
+          "2.0.1",
+          "1.6.9",
+          "2.0.0"
         ],
         "abi": [
           "cp311",
@@ -6408,7 +6448,8 @@
           "0.23.1",
           "0.23.0rc0",
           "0.23.1rc0",
-          "0.23.2"
+          "0.23.2",
+          "0.22.0"
         ],
         "abi": [
           "abi3"
@@ -6711,6 +6752,18 @@
         "name": "tree_sitter_ruby",
         "version": [
           "0.23.1"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "tree_sitter_swift",
+        "version": [
+          "0.7.4",
+          "0.7.2",
+          "0.7.3"
         ],
         "abi": [
           "abi3"
