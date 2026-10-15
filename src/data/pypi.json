@@ -1,5 +1,5 @@
 {
-  "updated_at": "1791945029",
+  "updated_at": "1792031432",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -701,7 +701,8 @@
       {
         "name": "cffi",
         "version": [
-          "2.0.0"
+          "2.0.0",
+          "2.1.1"
         ],
         "abi": [
           "cp311",
@@ -2285,6 +2286,21 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "kerberos",
+        "version": [
+          "1.3.1",
+          "1.3.0",
+          "1.2.5"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "kiwisolver",
         "version": [
           "1.4.8",
@@ -3368,6 +3384,21 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "noise",
+        "version": [
+          "1.2.1",
+          "1.2.0",
+          "1.2.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "numba",
         "version": [
           "0.64.0+3.g52f1433",
@@ -4015,6 +4046,20 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "praat_parselmouth",
+        "version": [
+          "0.4.7",
+          "0.4.6"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "prek",
         "version": [
           "0.4.11",
@@ -4047,7 +4092,8 @@
         "version": [
           "1.3.1",
           "2.0.0",
-          "1.3.0"
+          "1.3.0",
+          "2.0.1"
         ],
         "abi": [
           "abi3"
@@ -4328,6 +4374,30 @@
         ],
         "abi": [
           "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pybedtools",
+        "version": [
+          "0.11.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pybedtools",
+        "version": [
+          "0.12.0",
+          "0.12.1"
+        ],
+        "abi": [
           "cp312",
           "cp313",
           "cp314"
@@ -6449,7 +6519,8 @@
           "0.23.0rc0",
           "0.23.1rc0",
           "0.23.2",
-          "0.22.0"
+          "0.22.0",
+          "0.22.2"
         ],
         "abi": [
           "abi3"
