@@ -1,5 +1,5 @@
 {
-  "updated_at": "1792117830",
+  "updated_at": "1792204232",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -139,6 +139,30 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "annoy",
+        "version": [
+          "1.17.3"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "annoy",
+        "version": [
+          "1.17.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -352,6 +376,17 @@
           "cp311",
           "cp312",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "betterproto_rust_codec",
+        "version": [
+          "0.1.0",
+          "0.1.1"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -1444,6 +1479,29 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ed25519_blake2b",
+        "version": [
+          "1.4.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ed25519_blake2b",
+        "version": [
+          "1.4"
+        ],
+        "abi": [
+          "cp311"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -3641,6 +3699,43 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "opencc",
+        "version": [
+          "1.4.0+g1.4.0.0.ge555470.dirty"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "opencc",
+        "version": [
+          "1.4.1+g1.4.1.0.gea538bb.dirty"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "opencc",
+        "version": [
+          "1.4.2+g1.4.2.0.g3e12ee8.dirty"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "opencv_python",
         "version": [
           "4.13.0+bfc4016",
@@ -5248,23 +5343,14 @@
         "name": "python_rapidjson",
         "version": [
           "1.24",
-          "1.23"
+          "1.23",
+          "1.25"
         ],
         "abi": [
           "cp311",
           "cp312",
           "cp313",
           "cp314"
-        ],
-        "platform": "manylinux_2_38_riscv64"
-      },
-      {
-        "name": "python_rapidjson",
-        "version": [
-          "1.25"
-        ],
-        "abi": [
-          "cp311"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
