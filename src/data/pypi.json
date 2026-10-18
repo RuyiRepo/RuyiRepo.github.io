@@ -1,5 +1,5 @@
 {
-  "updated_at": "1792204232",
+  "updated_at": "1792290629",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -51,6 +51,32 @@
         "abi": [
           "cp311",
           "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "PyVCF3",
+        "version": [
+          "1.0.4",
+          "1.0.3"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "PyVCF3",
+        "version": [
+          "1.0.2"
+        ],
+        "abi": [
+          "cp311",
           "cp313",
           "cp314"
         ],
@@ -1624,6 +1650,31 @@
         "abi": [
           "cp311",
           "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "fastrlock",
+        "version": [
+          "0.8.3"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "fastrlock",
+        "version": [
+          "0.8.4"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -5054,6 +5105,31 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "pyopengl_accelerate",
+        "version": [
+          "4.0.0a7"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyopengl_accelerate",
+        "version": [
+          "4.0.0a5"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "pyppmd",
         "version": [
           "1.1.1"
@@ -5340,6 +5416,19 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "python_libsbml",
+        "version": [
+          "5.21.1",
+          "5.21.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "python_rapidjson",
         "version": [
           "1.24",
@@ -5482,6 +5571,19 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "rcssmin",
+        "version": [
+          "1.2.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "regex",
         "version": [
           "2026.7.19",
@@ -5493,6 +5595,29 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "regions",
+        "version": [
+          "0.13"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "regions",
+        "version": [
+          "0.11",
+          "0.12"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -7472,6 +7597,21 @@
         "version": [
           "1.7.6",
           "1.7.3"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "yara_python",
+        "version": [
+          "4.5.4",
+          "4.5.2",
+          "4.5.1"
         ],
         "abi": [
           "cp311",
