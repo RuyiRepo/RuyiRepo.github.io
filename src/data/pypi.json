@@ -1,5 +1,5 @@
 {
-  "updated_at": "1792290629",
+  "updated_at": "1792377029",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -822,6 +822,32 @@
         ],
         "abi": [
           "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ckzg",
+        "version": [
+          "2.1.6"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ckzg",
+        "version": [
+          "2.1.7",
+          "2.1.8"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -3824,6 +3850,18 @@
           "cp311",
           "cp312",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "openslide_python",
+        "version": [
+          "1.4.2",
+          "1.4.6",
+          "1.4.3"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
