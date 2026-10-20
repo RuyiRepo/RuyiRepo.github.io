@@ -1,5 +1,5 @@
 {
-  "updated_at": "1792377029",
+  "updated_at": "1792463428",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -1136,6 +1136,41 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "cryptg",
+        "version": [
+          "0.6.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cryptg",
+        "version": [
+          "0.5.1"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cryptg",
+        "version": [
+          "0.5.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "cryptography",
         "version": [
           "46.0.4",
@@ -1725,6 +1760,30 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "faust_cchardet",
+        "version": [
+          "3.1.0",
+          "3.2.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "faust_cchardet",
+        "version": [
+          "3.0.1"
+        ],
+        "abi": [
+          "cp312"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -4170,6 +4229,32 @@
         ],
         "abi": [
           "cp310"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pesq",
+        "version": [
+          "0.0.4",
+          "0.0.3"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pesq",
+        "version": [
+          "0.0.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -7053,6 +7138,16 @@
         "name": "tree_sitter_cpp",
         "version": [
           "0.23.4"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "tree_sitter_css",
+        "version": [
+          "0.25.0"
         ],
         "abi": [
           "abi3"
