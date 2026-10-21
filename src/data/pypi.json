@@ -1,5 +1,5 @@
 {
-  "updated_at": "1792463428",
+  "updated_at": "1792549829",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -256,6 +256,28 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "asv",
+        "version": [
+          "0.6.5"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "asv",
+        "version": [
+          "0.6.6"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -889,6 +911,41 @@
         "abi": [
           "cp311",
           "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "clingo",
+        "version": [
+          "5.8.0"
+        ],
+        "abi": [
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "clingo",
+        "version": [
+          "5.8.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "clingo",
+        "version": [
+          "5.8.2"
+        ],
+        "abi": [
+          "cp311",
           "cp313",
           "cp314"
         ],
@@ -1676,6 +1733,16 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "fastexcel",
+        "version": [
+          "0.20.2"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
