@@ -1,5 +1,5 @@
 {
-  "updated_at": "1792809032",
+  "updated_at": "1792895432",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -6370,6 +6370,8 @@
         ],
         "abi": [
           "cp311",
+          "cp312",
+          "cp313",
           "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
