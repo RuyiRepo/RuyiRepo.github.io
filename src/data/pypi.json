@@ -1,5 +1,5 @@
 {
-  "updated_at": "1793068232",
+  "updated_at": "1793154631",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -1349,6 +1349,7 @@
           "2.9.post0"
         ],
         "abi": [
+          "cp311",
           "cp312",
           "cp314"
         ],
@@ -2436,7 +2437,10 @@
           "1.85.0rc1"
         ],
         "abi": [
-          "cp311"
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -4383,6 +4387,16 @@
         ],
         "abi": [
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "opencc",
+        "version": [
+          "1.4.2+g1.4.2.0.g04846b4.dirty"
+        ],
+        "abi": [
+          "cp311"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -7489,6 +7503,7 @@
           "2.1.6"
         ],
         "abi": [
+          "cp311",
           "cp312",
           "cp313"
         ],
