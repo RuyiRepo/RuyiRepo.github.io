@@ -1,5 +1,5 @@
 {
-  "updated_at": "1793500246",
+  "updated_at": "1793586646",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -7,6 +7,19 @@
         "version": [
           "1.0.9",
           "1.1.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "CT3",
+        "version": [
+          "3.4.0b6"
         ],
         "abi": [
           "cp311",
@@ -571,6 +584,16 @@
         ],
         "abi": [
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "apache_beam",
+        "version": [
+          "2.78.0rc1"
+        ],
+        "abi": [
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -2597,6 +2620,136 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "color_operations",
+        "version": [
+          "0.2.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "color_operations",
+        "version": [
+          "0.4.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "common_expression_language",
+        "version": [
+          "0.8.0",
+          "0.9.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "common_expression_language",
+        "version": [
+          "0.10.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "complexipy",
+        "version": [
+          "8.2.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "complexipy",
+        "version": [
+          "8.3.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "complexipy",
+        "version": [
+          "8.1.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "comrak",
+        "version": [
+          "0.0.16",
+          "0.0.15",
+          "0.0.14"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "connected_components_3d",
+        "version": [
+          "4.1.1"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "connected_components_3d",
+        "version": [
+          "4.1.0"
+        ],
+        "abi": [
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "connected_components_3d",
+        "version": [
+          "4.0.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "contourpy",
         "version": [
           "1.3.2",
@@ -2641,6 +2794,68 @@
           "1.4.0"
         ],
         "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "coolprop",
+        "version": [
+          "8.0.0",
+          "7.2.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "coreforecast",
+        "version": [
+          "0.0.19"
+        ],
+        "abi": [
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "coreforecast",
+        "version": [
+          "0.0.18"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "correctionlib",
+        "version": [
+          "2.8.0rc2"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "correctionlib",
+        "version": [
+          "2.9.0",
+          "2.8.0"
+        ],
+        "abi": [
+          "cp311",
           "cp312",
           "cp313",
           "cp314"
@@ -2753,6 +2968,18 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "cql2",
+        "version": [
+          "0.5.6",
+          "0.5.7",
+          "0.6.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "cramjam",
         "version": [
           "2.12.0",
@@ -2837,6 +3064,55 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "crick",
+        "version": [
+          "0.0.8"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "crick",
+        "version": [
+          "0.0.7"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "crosshair_tool",
+        "version": [
+          "0.0.110"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "crosshair_tool",
+        "version": [
+          "0.0.111",
+          "0.0.112"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "cryptg",
         "version": [
           "0.6.0"
@@ -2887,6 +3163,66 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "css_inline",
+        "version": [
+          "0.22.1",
+          "0.23.0",
+          "0.23.1"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ct3",
+        "version": [
+          "3.4.0.post5"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "curated_tokenizers",
+        "version": [
+          "2.0.0.dev0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "curated_tokenizers",
+        "version": [
+          "2.0.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "curated_tokenizers",
+        "version": [
+          "2.0.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "curl_cffi",
         "version": [
           "0.16.1",
@@ -2916,6 +3252,29 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "cwcwidth",
+        "version": [
+          "0.1.11"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cwcwidth",
+        "version": [
+          "0.1.10"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "cx_Oracle",
         "version": [
           "8.3.0",
@@ -2927,6 +3286,38 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cydifflib",
+        "version": [
+          "1.2.0"
+        ],
+        "abi": [
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cyksuid",
+        "version": [
+          "2.1.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cyksuid",
+        "version": [
+          "2.0.2"
+        ],
+        "abi": [
+          "cp311"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -2956,6 +3347,68 @@
         "abi": [
           "cp312",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cyscale",
+        "version": [
+          "0.6.0",
+          "0.7.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cyscale",
+        "version": [
+          "0.8.0"
+        ],
+        "abi": [
+          "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cysignals",
+        "version": [
+          "1.13.0",
+          "1.13.1"
+        ],
+        "abi": [
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cysystemd",
+        "version": [
+          "2.0.5",
+          "2.0.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cysystemd",
+        "version": [
+          "2.0.4"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -3082,6 +3535,116 @@
           "1.1.0a2",
           "1.0.1",
           "1.2.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cyvcf2",
+        "version": [
+          "0.34.0",
+          "0.33.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "cyvcf2",
+        "version": [
+          "0.32.1"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "daqp",
+        "version": [
+          "0.10.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "daqp",
+        "version": [
+          "0.10.2"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "daqp",
+        "version": [
+          "0.10.3"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "datafusion",
+        "version": [
+          "54.1.0",
+          "55.0.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "datafusion_query_builder",
+        "version": [
+          "0.3.1",
+          "0.2.0",
+          "0.4.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "datasketches",
+        "version": [
+          "5.2.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "datasketches",
+        "version": [
+          "5.1.0",
+          "5.1.1"
         ],
         "abi": [
           "cp311",
