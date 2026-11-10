@@ -1,5 +1,5 @@
 {
-  "updated_at": "1794191450",
+  "updated_at": "1794277848",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -973,6 +973,18 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "asyncdb",
+        "version": [
+          "2.16.3"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "asynch",
         "version": [
           "0.4.0"
@@ -1591,7 +1603,8 @@
         "version": [
           "4.13.1",
           "4.12.0",
-          "4.13.0"
+          "4.13.0",
+          "4.14.1"
         ],
         "abi": [
           "abi3"
@@ -2397,7 +2410,8 @@
         "version": [
           "2.3.1",
           "2.3.3",
-          "2.3.2"
+          "2.3.2",
+          "2.4.1"
         ],
         "abi": [
           "cp311",
@@ -8005,7 +8019,8 @@
           "1.109.0.dev1",
           "1.109.0.dev2",
           "1.109.0rc1",
-          "1.110.0.dev1"
+          "1.110.0.dev1",
+          "1.110.0.dev2"
         ],
         "abi": [
           "abi3"
@@ -10335,7 +10350,8 @@
       {
         "name": "opencc",
         "version": [
-          "1.4.2+g1.4.2.0.g516b845.dirty"
+          "1.4.2+g1.4.2.0.g516b845.dirty",
+          "1.4.2+g1.4.2.0.g3006069.dirty"
         ],
         "abi": [
           "cp311",
@@ -10733,6 +10749,18 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ormsgpack",
+        "version": [
+          "1.13.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -11135,7 +11163,8 @@
         "name": "phonors",
         "version": [
           "0.6.0",
-          "0.8.0"
+          "0.8.0",
+          "0.7.0"
         ],
         "abi": [
           "abi3"
@@ -11145,12 +11174,23 @@
       {
         "name": "photutils",
         "version": [
-          "3.1.1"
+          "3.1.1",
+          "3.1.0"
         ],
         "abi": [
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "photutils",
+        "version": [
+          "3.0.0"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -11178,17 +11218,66 @@
         ],
         "abi": [
           "cp312",
-          "cp313"
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pillow_jxl_plugin",
+        "version": [
+          "1.3.6"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pillow_jxl_plugin",
+        "version": [
+          "1.3.8"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
       {
         "name": "pinecone",
         "version": [
-          "10.1.0"
+          "10.1.0",
+          "10.2.0",
+          "10.3.0"
         ],
         "abi": [
           "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pixelhog",
+        "version": [
+          "1.3.1",
+          "1.2.0",
+          "1.3.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pkgconf",
+        "version": [
+          "3.0.1.post0",
+          "3.0.7.post0"
+        ],
+        "abi": [
+          "none"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -11227,6 +11316,17 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "pocketsphinx",
+        "version": [
+          "5.1.1"
+        ],
+        "abi": [
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "polyleven",
         "version": [
           "0.11.0",
@@ -11239,6 +11339,66 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "portforward",
+        "version": [
+          "0.7.5",
+          "0.7.4"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "portforward",
+        "version": [
+          "0.7.6"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "posix_ipc",
+        "version": [
+          "1.3.2",
+          "1.3.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "posix_ipc",
+        "version": [
+          "1.3.1"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pqcrypto",
+        "version": [
+          "1.0.0"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -11285,6 +11445,21 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "primer3_py",
+        "version": [
+          "2.3.1",
+          "2.3.0",
+          "2.4.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "primp",
         "version": [
           "1.3.1",
@@ -11294,6 +11469,72 @@
         ],
         "abi": [
           "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "private_attribute_cpp",
+        "version": [
+          "2.2.9"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "private_attribute_cpp",
+        "version": [
+          "3.0.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "private_attribute_cpp",
+        "version": [
+          "3.0.0"
+        ],
+        "abi": [
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "promql_parser",
+        "version": [
+          "0.12.0"
+        ],
+        "abi": [
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "promql_parser",
+        "version": [
+          "0.10.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "promql_parser",
+        "version": [
+          "0.11.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -11358,6 +11599,54 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "protobuf_py_ext",
+        "version": [
+          "0.7.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "protobuf_py_ext",
+        "version": [
+          "0.6.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "protobuf_py_ext",
+        "version": [
+          "0.5.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "protovalidate",
+        "version": [
+          "2.1.0",
+          "2.0.0"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -11501,6 +11790,55 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "puhu",
+        "version": [
+          "0.3.0",
+          "0.4.1",
+          "0.4.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyBigWig",
+        "version": [
+          "0.3.29",
+          "0.3.26"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyBigWig",
+        "version": [
+          "0.3.25"
+        ],
+        "abi": [
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "py_ballisticcalc_exts",
+        "version": [
+          "3.1.1",
+          "3.1.0b1",
+          "3.1.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "py_bcrypt",
         "version": [
           "0.3",
@@ -11511,6 +11849,64 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "py_bip39_bindings",
+        "version": [
+          "0.2.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "py_bip39_bindings",
+        "version": [
+          "0.3.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "py_bip39_bindings",
+        "version": [
+          "0.1.12"
+        ],
+        "abi": [
+          "cp311"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "py_ed25519_zebra_bindings",
+        "version": [
+          "1.1.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "py_ed25519_zebra_bindings",
+        "version": [
+          "1.2.0",
+          "1.3.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -11532,12 +11928,58 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "py_rattler",
+        "version": [
+          "0.27.1",
+          "0.28.0",
+          "0.28.1"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "py_spy",
         "version": [
           "0.4.2"
         ],
         "abi": [
           "none"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "py_sr25519_bindings",
+        "version": [
+          "0.2.3"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "py_sr25519_bindings",
+        "version": [
+          "0.2.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "py_sr25519_bindings",
+        "version": [
+          "0.2.4"
+        ],
+        "abi": [
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -11562,6 +12004,21 @@
         ],
         "abi": [
           "cp311"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyamg",
+        "version": [
+          "5.4.0",
+          "5.4.1",
+          "5.3.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -11644,6 +12101,85 @@
         "abi": [
           "cp312",
           "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pybigtools",
+        "version": [
+          "0.2.5"
+        ],
+        "abi": [
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pybigtools",
+        "version": [
+          "0.3.0"
+        ],
+        "abi": [
+          "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pybigtools",
+        "version": [
+          "0.2.4"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pybullet",
+        "version": [
+          "3.2.6",
+          "3.2.7"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pybullet",
+        "version": [
+          "3.2.5"
+        ],
+        "abi": [
+          "cp311",
+          "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pycapnp",
+        "version": [
+          "2.2.4"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pycapnp",
+        "version": [
+          "2.2.2"
+        ],
+        "abi": [
+          "cp312",
           "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
@@ -11737,6 +12273,16 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pycrc32",
+        "version": [
+          "0.2.0"
+        ],
+        "abi": [
+          "cp312"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -12866,7 +13412,8 @@
           "2026.7.19",
           "2026.9.3",
           "2026.8.31",
-          "2026.9.29"
+          "2026.9.29",
+          "2026.11.9"
         ],
         "abi": [
           "cp311",
@@ -14293,7 +14840,8 @@
           "0.23.2",
           "0.22.0",
           "0.22.2",
-          "1.0.0rc3"
+          "1.0.0rc3",
+          "1.0.0rc4"
         ],
         "abi": [
           "abi3"
@@ -14464,6 +15012,17 @@
         ],
         "abi": [
           "cp311"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "tree_sitter",
+        "version": [
+          "0.26.1"
+        ],
+        "abi": [
+          "cp312",
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -15141,7 +15700,8 @@
         "version": [
           "4.0.1",
           "4.0.0",
-          "4.0.2"
+          "4.0.2",
+          "4.1.0"
         ],
         "abi": [
           "cp311",
