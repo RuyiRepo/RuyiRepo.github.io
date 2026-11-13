@@ -1,5 +1,5 @@
 {
-  "updated_at": "1794450649",
+  "updated_at": "1794537049",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -663,7 +663,8 @@
       {
         "name": "apache_beam",
         "version": [
-          "2.77.0rc4"
+          "2.77.0rc4",
+          "2.78.0rc2"
         ],
         "abi": [
           "cp313"
@@ -806,6 +807,16 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "arraykit",
+        "version": [
+          "1.13.0"
+        ],
+        "abi": [
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "arro3_compute",
         "version": [
           "0.9.0"
@@ -903,7 +914,8 @@
           "0.50.0",
           "0.45.3",
           "0.51.0",
-          "0.51.1"
+          "0.51.1",
+          "0.51.2"
         ],
         "abi": [
           "none"
@@ -942,6 +954,18 @@
         ],
         "abi": [
           "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ast_grep_py",
+        "version": [
+          "0.51.2"
+        ],
+        "abi": [
           "cp312",
           "cp313",
           "cp314"
@@ -1312,7 +1336,8 @@
         "version": [
           "0.1.15.post1",
           "0.1.16",
-          "0.1.17"
+          "0.1.17",
+          "0.1.18"
         ],
         "abi": [
           "abi3"
@@ -1326,7 +1351,8 @@
           "0.19.0",
           "0.20.0",
           "0.20.2",
-          "0.20.3"
+          "0.20.3",
+          "0.21.0"
         ],
         "abi": [
           "abi3"
@@ -3445,6 +3471,17 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "cutadapt",
+        "version": [
+          "5.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "cvxopt",
         "version": [
           "1.3.1"
@@ -3793,7 +3830,8 @@
         "name": "daqp",
         "version": [
           "0.10.1",
-          "0.10.3"
+          "0.10.3",
+          "0.11.2"
         ],
         "abi": [
           "cp311",
@@ -4679,6 +4717,18 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "epaper_dithering",
+        "version": [
+          "7.0.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -7052,6 +7102,18 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "impit",
+        "version": [
+          "0.15.3"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "indexed_gzip",
         "version": [
           "1.10.1",
@@ -7370,6 +7432,18 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "json_stream_rs_tokenizer",
+        "version": [
+          "0.5.5"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "json_tools_rs",
         "version": [
           "0.9.30",
@@ -7429,7 +7503,8 @@
           "0.60.0",
           "0.60.1",
           "0.61.0",
-          "0.61.1"
+          "0.61.1",
+          "0.61.2"
         ],
         "abi": [
           "abi3"
@@ -7440,7 +7515,8 @@
         "name": "kaldi_native_fbank",
         "version": [
           "1.22.4",
-          "1.22.3"
+          "1.22.3",
+          "1.23.1"
         ],
         "abi": [
           "cp311",
@@ -8868,7 +8944,8 @@
         "name": "miniaudio",
         "version": [
           "1.61",
-          "1.72"
+          "1.72",
+          "1.73"
         ],
         "abi": [
           "cp311",
@@ -9544,7 +9621,8 @@
         "name": "multimodars",
         "version": [
           "0.9.0",
-          "0.10.0"
+          "0.10.0",
+          "0.12.0"
         ],
         "abi": [
           "cp311",
@@ -10229,7 +10307,8 @@
           "0.41.0b202611061809",
           "0.40.0rc3",
           "0.40.0rc2",
-          "0.41.0b202611091810"
+          "0.41.0b202611091810",
+          "0.41.0b202611101810"
         ],
         "abi": [
           "abi3"
@@ -10901,6 +10980,17 @@
           "cp311",
           "cp312",
           "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "osqp",
+        "version": [
+          "1.1.3"
+        ],
+        "abi": [
+          "cp312",
           "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
@@ -14459,6 +14549,19 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "python_pkcs11",
+        "version": [
+          "0.10.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "python_rapidjson",
         "version": [
           "1.24",
@@ -14482,6 +14585,19 @@
           "cp311",
           "cp312",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "python_stretch",
+        "version": [
+          "0.2.0",
+          "0.3.1",
+          "0.3.0"
+        ],
+        "abi": [
+          "abi3",
+          "cp311"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -14515,6 +14631,17 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "pytorch_tokenizers",
+        "version": [
+          "1.0.1"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "pytrec_eval",
         "version": [
           "0.5",
@@ -14524,6 +14651,57 @@
         "abi": [
           "cp311",
           "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pytrec_eval_terrier",
+        "version": [
+          "0.5.9",
+          "0.5.10"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pytrec_eval_terrier",
+        "version": [
+          "0.5.11"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pytype",
+        "version": [
+          "2024.9.13",
+          "2024.4.11"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pytype",
+        "version": [
+          "2024.10.11"
+        ],
+        "abi": [
+          "cp311",
           "cp313",
           "cp314"
         ],
@@ -14556,6 +14734,39 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "pyvex",
+        "version": [
+          "10.0.6",
+          "10.0.5",
+          "10.0.4"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyvrl",
+        "version": [
+          "0.0.1"
+        ],
+        "abi": [
+          "cp311"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyvrl",
+        "version": [
+          "0.0.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "pywavelets",
         "version": [
           "1.7.0",
@@ -14579,6 +14790,112 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyxDamerauLevenshtein",
+        "version": [
+          "1.10.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyxDamerauLevenshtein",
+        "version": [
+          "1.9.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyxcp",
+        "version": [
+          "0.30.3"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyxcp",
+        "version": [
+          "0.30.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyxcp",
+        "version": [
+          "0.30.4"
+        ],
+        "abi": [
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyxdameraulevenshtein",
+        "version": [
+          "1.11.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyxirr",
+        "version": [
+          "0.10.7"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyxirr",
+        "version": [
+          "0.10.8"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyxirr",
+        "version": [
+          "0.10.6"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -14636,10 +14953,81 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "qdldl",
+        "version": [
+          "0.1.9.post1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "qoi",
+        "version": [
+          "0.7.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "qoi",
+        "version": [
+          "0.8.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "qoi",
+        "version": [
+          "0.7.1"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "quadprog",
         "version": [
-          "0.1.13",
-          "0.1.12"
+          "0.1.13"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "quadprog",
+        "version": [
+          "0.1.12",
+          "0.1.14"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "quickjs",
+        "version": [
+          "1.19.2"
         ],
         "abi": [
           "cp311",
@@ -14648,13 +15036,47 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
-        "name": "quadprog",
+        "name": "quickjs",
         "version": [
-          "0.1.14"
+          "1.19.3"
         ],
         "abi": [
           "cp312",
-          "cp313"
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "quickjs",
+        "version": [
+          "1.19.4"
+        ],
+        "abi": [
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "quickjs_ng",
+        "version": [
+          "0.18.0.1",
+          "0.17.0.2"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "rapidyaml",
+        "version": [
+          "0.15.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -14674,6 +15096,54 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "rawpy",
+        "version": [
+          "0.27.0"
+        ],
+        "abi": [
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "rawpy",
+        "version": [
+          "0.28.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "rawpy",
+        "version": [
+          "0.27.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "rbloom",
+        "version": [
+          "1.5.2",
+          "1.5.4",
+          "1.5.3"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "rcssmin",
         "version": [
           "1.2.1",
@@ -14682,6 +15152,32 @@
         "abi": [
           "cp311",
           "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "rectangle_packer",
+        "version": [
+          "2.1.1",
+          "2.0.6"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "rectangle_packer",
+        "version": [
+          "2.1.0"
+        ],
+        "abi": [
+          "cp311",
           "cp313",
           "cp314"
         ],
@@ -14740,6 +15236,27 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "regopy",
+        "version": [
+          "1.4.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "regopy",
+        "version": [
+          "1.5.2"
+        ],
+        "abi": [
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "regress",
         "version": [
           "2026.9.1",
@@ -14755,6 +15272,98 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "rencode",
+        "version": [
+          "1.0.9"
+        ],
+        "abi": [
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "rensa",
+        "version": [
+          "0.5.0",
+          "0.4.0",
+          "0.4.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "reproject",
+        "version": [
+          "0.19.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "reproject",
+        "version": [
+          "0.20.0"
+        ],
+        "abi": [
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "reproject",
+        "version": [
+          "0.21.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "restate_sdk",
+        "version": [
+          "1.4.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "resvg_py",
+        "version": [
+          "0.3.4"
+        ],
+        "abi": [
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "rfc3161_client",
+        "version": [
+          "1.0.9",
+          "1.0.7"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "rignore",
         "version": [
           "0.7.6",
@@ -14765,6 +15374,27 @@
           "cp311",
           "cp312",
           "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ripgrep",
+        "version": [
+          "15.0.0"
+        ],
+        "abi": [
+          "none"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "riskcal",
+        "version": [
+          "1.5.1"
+        ],
+        "abi": [
+          "cp312",
           "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
