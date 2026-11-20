@@ -1,5 +1,5 @@
 {
-  "updated_at": "1795055450",
+  "updated_at": "1795141851",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -253,6 +253,31 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "aardwolf",
+        "version": [
+          "0.2.14"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "aardwolf",
+        "version": [
+          "0.2.16"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "accelerator_toolbox",
         "version": [
           "0.9.0"
@@ -285,6 +310,55 @@
         "abi": [
           "cp311",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "acora",
+        "version": [
+          "2.4"
+        ],
+        "abi": [
+          "cp311",
+          "cp312"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "acora",
+        "version": [
+          "2.5"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "acquisition",
+        "version": [
+          "6.3"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "acquisition",
+        "version": [
+          "6.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -357,6 +431,30 @@
           "cp311",
           "cp312",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "affinegap",
+        "version": [
+          "1.12"
+        ],
+        "abi": [
+          "cp311",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "affinegap",
+        "version": [
+          "1.11"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -568,6 +666,16 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "anchorpy_core",
+        "version": [
+          "0.2.0"
+        ],
+        "abi": [
+          "abi3"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "anise",
         "version": [
           "1.0.0a0"
@@ -683,6 +791,29 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "apache_sedona",
+        "version": [
+          "1.9.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "apache_sedona",
+        "version": [
+          "1.8.1",
+          "1.9.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "apache_tvm_ffi",
         "version": [
           "0.1.14rc1",
@@ -735,6 +866,42 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "aplr",
+        "version": [
+          "10.25.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "aplr",
+        "version": [
+          "10.26.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "aplr",
+        "version": [
+          "10.27.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "apsw",
         "version": [
           "3.54.0.0",
@@ -770,6 +937,40 @@
         "abi": [
           "cp311",
           "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "arch",
+        "version": [
+          "8.0.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "arch",
+        "version": [
+          "9.0.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "arch",
+        "version": [
+          "7.2.0"
+        ],
+        "abi": [
+          "cp313",
           "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
@@ -909,6 +1110,29 @@
         ],
         "abi": [
           "none"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "assimp_py",
+        "version": [
+          "1.2.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "assimp_py",
+        "version": [
+          "1.0.8"
+        ],
+        "abi": [
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -1201,6 +1425,18 @@
           "cp311",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "atomicx",
+        "version": [
+          "0.0.15",
+          "0.0.15rc0",
+          "0.0.15rc1"
+        ],
+        "abi": [
+          "abi3"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -1834,7 +2070,8 @@
       {
         "name": "bottleneck",
         "version": [
-          "1.4.2"
+          "1.4.2",
+          "1.6.1"
         ],
         "abi": [
           "cp311",
@@ -1847,8 +2084,7 @@
       {
         "name": "bottleneck",
         "version": [
-          "1.6.1rc2",
-          "1.6.1"
+          "1.6.1rc2"
         ],
         "abi": [
           "cp311",
@@ -2550,10 +2786,23 @@
         "version": [
           "2.3.1",
           "2.3.3",
-          "2.3.2",
+          "2.3.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ciso8601",
+        "version": [
           "2.4.1"
         ],
         "abi": [
+          "cp310",
           "cp311",
           "cp312",
           "cp313",
@@ -5653,7 +5902,8 @@
         "version": [
           "0.2.4",
           "0.2.2",
-          "0.2.3"
+          "0.2.3",
+          "0.2.5"
         ],
         "abi": [
           "abi3"
@@ -5974,6 +6224,17 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "geventhttpclient",
+        "version": [
+          "2.6.2"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -6373,7 +6634,8 @@
         "version": [
           "1.85.0rc1",
           "1.85.1",
-          "1.85.0"
+          "1.85.0",
+          "1.85.3"
         ],
         "abi": [
           "cp311",
@@ -6579,7 +6841,8 @@
         "name": "habluetooth",
         "version": [
           "7.0.0",
-          "6.26.11"
+          "6.26.11",
+          "7.1.3"
         ],
         "abi": [
           "cp311",
@@ -6708,7 +6971,8 @@
         "version": [
           "0.41.0",
           "0.42.0",
-          "0.43.1"
+          "0.43.1",
+          "0.44.0"
         ],
         "abi": [
           "abi3"
@@ -9746,7 +10010,8 @@
         "name": "multimark",
         "version": [
           "0.4.0",
-          "0.3.2"
+          "0.3.2",
+          "0.5.0"
         ],
         "abi": [
           "abi3"
@@ -9777,6 +10042,18 @@
           "cp311",
           "cp312",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "multimodars",
+        "version": [
+          "0.13.3"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -10328,7 +10605,8 @@
           "2.5.1",
           "2.5.2",
           "2.5.3",
-          "2.5.4"
+          "2.5.4",
+          "2.5.5"
         ],
         "abi": [
           "cp312",
@@ -10457,7 +10735,8 @@
           "0.40.0rc3",
           "0.40.0rc2",
           "0.41.0b202611091810",
-          "0.41.0b202611101810"
+          "0.41.0b202611101810",
+          "0.42.0"
         ],
         "abi": [
           "abi3"
@@ -10468,7 +10747,8 @@
         "name": "obspy",
         "version": [
           "1.5.0.post0+dirty",
-          "1.4.2.post0+dirty"
+          "1.4.2.post0+dirty",
+          "1.5.2.post0+dirty"
         ],
         "abi": [
           "cp312",
@@ -10798,6 +11078,18 @@
         "abi": [
           "cp311",
           "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "opencv_python",
+        "version": [
+          "5.1.0+8281ff3"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
           "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
@@ -11867,7 +12159,8 @@
       {
         "name": "private_attribute_cpp",
         "version": [
-          "2.2.9"
+          "2.2.9",
+          "3.1.0"
         ],
         "abi": [
           "cp312",
@@ -13254,6 +13547,17 @@
         "abi": [
           "cp311",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyglm",
+        "version": [
+          "2.8.4"
+        ],
+        "abi": [
+          "cp313",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -15644,7 +15948,8 @@
         "name": "restate_sdk",
         "version": [
           "1.4.2",
-          "1.5.1"
+          "1.5.1",
+          "1.5.4"
         ],
         "abi": [
           "cp311",
@@ -18289,6 +18594,17 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "xrootd",
+        "version": [
+          "6.2.1"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "xxhash",
         "version": [
           "3.7.0",
@@ -18441,7 +18757,8 @@
       {
         "name": "zeroconf",
         "version": [
-          "0.153.0"
+          "0.153.0",
+          "0.154.0"
         ],
         "abi": [
           "cp311",
@@ -18545,6 +18862,18 @@
           "cp311",
           "cp312",
           "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "zope_container",
+        "version": [
+          "7.4"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
           "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
