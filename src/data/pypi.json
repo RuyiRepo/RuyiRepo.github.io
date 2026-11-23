@@ -1,5 +1,5 @@
 {
-  "updated_at": "1795314650",
+  "updated_at": "1795401052",
   "supportedSoftware": {
     "riscv64": [
       {
@@ -210,7 +210,8 @@
       {
         "name": "PyYAML",
         "version": [
-          "6.0.3"
+          "6.0.3",
+          "6.0.4"
         ],
         "abi": [
           "cp311",
@@ -1487,6 +1488,20 @@
         "name": "asyncmy",
         "version": [
           "0.2.17",
+          "0.2.18"
+        ],
+        "abi": [
+          "cp310",
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "asyncmy",
+        "version": [
           "0.2.15"
         ],
         "abi": [
@@ -1515,21 +1530,8 @@
           "0.2.18rc1"
         ],
         "abi": [
-          "cp311",
-          "cp313",
-          "cp314"
-        ],
-        "platform": "manylinux_2_38_riscv64"
-      },
-      {
-        "name": "asyncmy",
-        "version": [
-          "0.2.18"
-        ],
-        "abi": [
           "cp310",
           "cp311",
-          "cp312",
           "cp313",
           "cp314"
         ],
@@ -1576,6 +1578,7 @@
           "0.32.0"
         ],
         "abi": [
+          "cp310",
           "cp311",
           "cp313",
           "cp314"
@@ -1588,6 +1591,7 @@
           "0.5.0"
         ],
         "abi": [
+          "cp310",
           "cp311",
           "cp313",
           "cp314"
@@ -1682,10 +1686,24 @@
       {
         "name": "awkward_cpp",
         "version": [
-          "55",
-          "57"
+          "55"
         ],
         "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "awkward_cpp",
+        "version": [
+          "57",
+          "59"
+        ],
+        "abi": [
+          "cp310",
           "cp311",
           "cp312",
           "cp313",
@@ -1699,22 +1717,9 @@
           "58"
         ],
         "abi": [
-          "cp311",
-          "cp312",
-          "cp314"
-        ],
-        "platform": "manylinux_2_38_riscv64"
-      },
-      {
-        "name": "awkward_cpp",
-        "version": [
-          "59"
-        ],
-        "abi": [
           "cp310",
           "cp311",
           "cp312",
-          "cp313",
           "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
@@ -1727,6 +1732,7 @@
           "2.0.3"
         ],
         "abi": [
+          "cp310",
           "cp311",
           "cp312",
           "cp313",
@@ -1754,10 +1760,21 @@
         "name": "backports_zstd",
         "version": [
           "1.5.0",
-          "1.7.0",
+          "1.7.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "backports_zstd",
+        "version": [
           "1.6.0"
         ],
         "abi": [
+          "cp310",
           "cp311",
           "cp313"
         ],
@@ -1769,6 +1786,7 @@
           "1.8.0"
         ],
         "abi": [
+          "cp310",
           "cp311",
           "cp312",
           "cp313"
@@ -2454,7 +2472,8 @@
           "6.2.4",
           "6.2.5",
           "6.2.6",
-          "6.2.10"
+          "6.2.10",
+          "6.2.11"
         ],
         "abi": [
           "cp311",
@@ -3787,7 +3806,8 @@
         "name": "coverage",
         "version": [
           "7.16.2",
-          "7.17.2"
+          "7.17.2",
+          "7.17.4"
         ],
         "abi": [
           "cp311",
@@ -4980,6 +5000,43 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "docling_parse",
+        "version": [
+          "7.27.1"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "docling_parse",
+        "version": [
+          "7.27.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "docling_parse",
+        "version": [
+          "7.26.0"
+        ],
+        "abi": [
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "dolphin_memory_engine",
         "version": [
           "1.3.0"
@@ -5210,6 +5267,21 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "dwave_samplers",
+        "version": [
+          "1.8.0",
+          "1.7.0",
+          "1.6.0"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "ecos",
         "version": [
           "2.0.14",
@@ -5339,6 +5411,21 @@
         "version": [
           "5.7.33",
           "5.7.34"
+        ],
+        "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "eflips_schedule_rust",
+        "version": [
+          "3.0.1",
+          "3.2.0",
+          "3.0.2"
         ],
         "abi": [
           "cp311",
@@ -5505,6 +5592,20 @@
           "1.4.5"
         ],
         "abi": [
+          "cp311",
+          "cp312",
+          "cp313",
+          "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "ezdxf",
+        "version": [
+          "1.4.6b0"
+        ],
+        "abi": [
+          "cp310",
           "cp311",
           "cp312",
           "cp313",
@@ -6739,7 +6840,8 @@
           "2.8.0",
           "2.8.1",
           "2.8.5",
-          "2.8.7"
+          "2.8.7",
+          "2.8.9"
         ],
         "abi": [
           "cp311",
@@ -6983,6 +7085,17 @@
           "cp311",
           "cp312",
           "cp313"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "grpcio",
+        "version": [
+          "1.85.3"
+        ],
+        "abi": [
+          "cp312",
+          "cp314"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -7645,7 +7758,8 @@
           "6.167.1",
           "6.166.0",
           "6.167.0",
-          "6.170.5"
+          "6.170.5",
+          "6.170.17"
         ],
         "abi": [
           "cp311",
@@ -9049,7 +9163,8 @@
           "1.110.0.dev1",
           "1.110.0.dev2",
           "1.110.0rc1",
-          "1.112.0.dev1"
+          "1.112.0.dev1",
+          "1.112.0.dev2"
         ],
         "abi": [
           "abi3"
@@ -13728,7 +13843,8 @@
           "4.2.0",
           "4.3.0",
           "4.4.0",
-          "4.5.0"
+          "4.5.0",
+          "4.6.0"
         ],
         "abi": [
           "abi3"
@@ -15793,6 +15909,16 @@
         "platform": "manylinux_2_38_riscv64"
       },
       {
+        "name": "pytorch_tokenizers",
+        "version": [
+          "1.4.0"
+        ],
+        "abi": [
+          "cp311"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
         "name": "pytrec_eval",
         "version": [
           "0.5",
@@ -16073,6 +16199,16 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "pyyaml",
+        "version": [
+          "6.0.4"
+        ],
+        "abi": [
+          "cp310"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
@@ -18801,7 +18937,8 @@
         "version": [
           "0.6.2",
           "0.6.0",
-          "0.6.1"
+          "0.6.1",
+          "0.7.0rc1"
         ],
         "abi": [
           "none"
@@ -19414,6 +19551,16 @@
           "cp312",
           "cp313",
           "cp314"
+        ],
+        "platform": "manylinux_2_38_riscv64"
+      },
+      {
+        "name": "zodbpickle",
+        "version": [
+          "4.6"
+        ],
+        "abi": [
+          "cp311"
         ],
         "platform": "manylinux_2_38_riscv64"
       },
